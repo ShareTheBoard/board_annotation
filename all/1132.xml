@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+
+
+  <version>1.1</version>
+
+
+  <meta>
+
+
+    <task>
+
+
+      <id>1132</id>
+
+
+      <name>Pokój14.mp4_frame_6300</name>
+
+
+      <size>1</size>
+
+
+      <mode>annotation</mode>
+
+
+      <overlap>0</overlap>
+
+
+      <bugtracker/>
+
+
+      <created>2021-11-24 17:02:06.972258+00:00</created>
+
+
+      <updated>2022-09-19 16:19:42.783273+00:00</updated>
+
+
+      <start_frame>0</start_frame>
+
+
+      <stop_frame>0</stop_frame>
+
+
+      <frame_filter/>
+
+
+      <labels>
+
+
+        <label>
+
+
+          <name>person</name>
+
+
+          <color>#c06060</color>
+
+
+          <attributes>
+
+
+            <attribute>
+
+
+              <name>hand_only</name>
+
+
+              <mutable>False</mutable>
+
+
+              <input_type>checkbox</input_type>
+
+
+              <default_value>false</default_value>
+
+
+              <values>false</values>
+
+
+            </attribute>
+
+
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_corner</name>
+
+
+          <color>#c1e0f5</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_corner</name>
+
+
+          <color>#aaf0d1</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_red</name>
+
+
+          <color>#fa3253</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_black</name>
+
+
+          <color>#000000</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_blue</name>
+
+
+          <color>#3d3df5</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_green</name>
+
+
+          <color>#24b353</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>reflection</name>
+
+
+          <color>#584eaf</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content</name>
+
+
+          <color>#fa3253</color>
+
+
+          <attributes>
+
+
+            <attribute>
+
+
+              <name>Difficult</name>
+
+
+              <mutable>True</mutable>
+
+
+              <input_type>checkbox</input_type>
+
+
+              <default_value>false</default_value>
+
+
+              <values>false</values>
+
+
+            </attribute>
+
+
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_mid_corner</name>
+
+
+          <color>#7fbb7d</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_mid_corner</name>
+
+
+          <color>#89a408</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_picture_edge</name>
+
+
+          <color>#092488</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_picture_edge</name>
+
+
+          <color>#5dcc6c</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>board</name>
+
+
+          <color>#ff6a4d</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+      </labels>
+
+
+      <segments>
+
+
+        <segment>
+
+
+          <id>1116</id>
+
+
+          <start>0</start>
+
+
+          <stop>0</stop>
+
+
+          <url>http://cvat.sharetheboard.com:8080/?id=1116</url>
+
+
+        </segment>
+
+
+      </segments>
+
+
+      <owner>
+
+
+        <username>w_jakubowska</username>
+
+
+        <email>weronika.jakubowska@poczta.onet.pl</email>
+
+
+      </owner>
+
+
+      <assignee>
+
+
+        <username>f_nawrocki</username>
+
+
+        <email>nawrocki.fil@gmail.com</email>
+
+
+      </assignee>
+
+
+    </task>
+
+
+    <dumped>2023-01-26 10:31:38.777177+00:00</dumped>
+
+
+    <frame_source type="video" path="data/video/Pokój14.mp4">
+      <video name="Pokój14.mp4" frame="6300"/>
+    </frame_source>
+  </meta>
+
+
+  <image id="0" name="Pokój14.mp4_frame_6300.png" width="1920" height="1080">
+
+
+    <polygon label="content" occluded="0" source="manual" points="1216.41,990.11;1217.05,997.58;1389.98,1015.73;1388.70,1006.33;1294.34,995.87;1247.37,990.96;1227.30,990.53" z_order="0">
+
+
+      <attribute name="Difficult">true</attribute>
+
+
+    </polygon>
+
+
+    <polygon label="content" occluded="0" source="manual" points="1594.72,24.87;1603.97,17.10;1607.26,9.64;1606.36,0.00;1570.23,0.00;1567.55,7.25;1568.14,15.61;1572.92,24.87;1584.27,27.26" z_order="0">
+
+
+      <attribute name="Difficult">true</attribute>
+
+
+    </polygon>
+
+
+    <polygon label="content" occluded="0" source="manual" points="1340.61,59.50;1347.18,52.04;1348.97,40.69;1345.39,31.14;1337.92,26.36;1325.08,26.96;1317.92,33.82;1314.04,43.38;1314.93,54.13;1320.60,61.00;1331.35,63.98" z_order="0">
+
+
+      <attribute name="Difficult">true</attribute>
+
+
+    </polygon>
+
+
+    <polygon label="content" occluded="0" source="manual" points="1142.50,82.20;1146.50,74.30;1146.20,65.30;1143.10,60.40;1138.10,56.20;1134.40,55.00;1129.10,55.60;1121.90,58.40;1117.60,63.40;1114.40,68.90;1114.70,76.40;1117.00,82.30;1121.70,86.70;1130.10,88.10;1137.90,86.70" z_order="0">
+
+
+      <attribute name="Difficult">true</attribute>
+
+
+    </polygon>
+
+
+    <polygon label="content" occluded="0" source="manual" points="955.60,113.70;961.40,107.10;963.30,99.40;962.40,92.60;958.40,87.20;952.50,84.60;943.80,85.90;937.40,90.40;933.30,97.50;934.10,106.10;938.80,114.10;948.20,116.50;952.70,115.30" z_order="0">
+
+
+      <attribute name="Difficult">true</attribute>
+
+
+    </polygon>
+
+
+    <polygon label="content" occluded="0" source="manual" points="840.60,138.70;846.20,131.70;846.60,123.60;842.90,116.10;838.34,113.05;833.08,112.57;827.08,114.01;820.84,118.57;819.64,124.93;819.64,133.09;821.32,137.53;826.48,141.61;832.10,141.97;836.78,140.77" z_order="0">
+
+
+      <attribute name="Difficult">true</attribute>
+
+
+    </polygon>
+
+
+    <polygon label="person" occluded="0" source="manual" points="497.03,1079.70;496.88,1055.38;504.59,1016.54;514.82,1008.53;517.20,982.14;520.31,951.60;509.04,947.15;499.26,944.93;491.40,939.74;485.32,930.10;481.17,916.46;479.54,892.59;482.21,868.13;489.47,827.65;496.44,780.21;504.30,713.35;508.15,674.35;512.15,627.65;537.36,589.84;578.43,528.76;624.54,489.47;661.60,459.82;680.28,454.78;693.77,454.63;716.61,434.91;730.69,428.09;755.60,378.57;778.88,332.17;761.83,339.73;745.67,362.11;741.81,354.70;744.33,333.06;751.15,316.60;777.25,274.05;766.57,256.40;747.89,273.01;732.17,294.36;720.76,314.08;715.57,334.54;710.82,330.68;709.05,309.78;701.63,301.92;711.57,280.72;723.72,260.56;726.69,255.07;753.38,240.39;760.34,234.17;726.39,230.90;728.62,222.30;752.34,221.27;770.43,223.94;822.32,208.37;845.59,207.63;870.80,213.56;890.67,223.79;920.32,217.71;949.67,217.71;981.55,223.49;1004.83,232.39;1025.29,247.95;1035.37,262.93;1042.04,274.64;1057.46,298.96;1062.20,310.37;1061.91,329.35;1062.94,349.22;1058.94,353.52;1050.34,394.14;1042.78,412.97;1035.37,433.28;1021.28,449.14;1010.90,481.02;994.74,512.15;984.22,528.02;964.05,544.92;950.27,561.97;958.87,573.39;962.72,583.76;990.30,593.11;1015.95,609.71;1038.04,632.25;1056.57,659.38;1078.36,684.43;1107.57,703.56;1098.38,727.73;1078.07,752.19;1086.67,802.75;1102.09,909.64;1114.98,957.23;1127.88,998.75;1131.44,1029.59;1124.32,1051.82;1114.98,1080.00" z_order="0">
+
+
+      <attribute name="hand_only">false</attribute>
+
+
+    </polygon>
+
+
+    <polygon label="board" occluded="0" source="manual" points="540.84,148.20;1666.89,1.05;1690.20,1057.30;517.50,904.60" z_order="0">
+    </polygon>
+
+
+    <points label="invisible_corner" occluded="0" source="manual" points="518.56,904.24" z_order="0">
+    </points>
+
+
+    <points label="visible_picture_edge" occluded="0" source="manual" points="1666.50,1.40" z_order="0">
+    </points>
+
+
+  </image>
+
+
+</annotations>
