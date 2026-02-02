@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+
+
+  <version>1.1</version>
+
+
+  <meta>
+
+
+    <task>
+
+
+      <id>2161</id>
+
+
+      <name>kartka_001.mp4_frame_300</name>
+
+
+      <size>1</size>
+
+
+      <mode>annotation</mode>
+
+
+      <overlap>0</overlap>
+
+
+      <bugtracker/>
+
+
+      <created>2022-01-09 16:43:08.309774+00:00</created>
+
+
+      <updated>2022-03-07 19:15:05.984568+00:00</updated>
+
+
+      <start_frame>0</start_frame>
+
+
+      <stop_frame>0</stop_frame>
+
+
+      <frame_filter/>
+
+
+      <labels>
+
+
+        <label>
+
+
+          <name>person</name>
+
+
+          <color>#c06060</color>
+
+
+          <attributes>
+
+
+            <attribute>
+
+
+              <name>hand_only</name>
+
+
+              <mutable>False</mutable>
+
+
+              <input_type>checkbox</input_type>
+
+
+              <default_value>false</default_value>
+
+
+              <values>false</values>
+
+
+            </attribute>
+
+
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_corner</name>
+
+
+          <color>#c1e0f5</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_corner</name>
+
+
+          <color>#aaf0d1</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_red</name>
+
+
+          <color>#fa3253</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_black</name>
+
+
+          <color>#000000</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_blue</name>
+
+
+          <color>#3d3df5</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_green</name>
+
+
+          <color>#24b353</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>reflection</name>
+
+
+          <color>#584eaf</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content</name>
+
+
+          <color>#fa3253</color>
+
+
+          <attributes>
+
+
+            <attribute>
+
+
+              <name>Difficult</name>
+
+
+              <mutable>True</mutable>
+
+
+              <input_type>checkbox</input_type>
+
+
+              <default_value>false</default_value>
+
+
+              <values>false</values>
+
+
+            </attribute>
+
+
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_mid_corner</name>
+
+
+          <color>#7fbb7d</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_mid_corner</name>
+
+
+          <color>#89a408</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_picture_edge</name>
+
+
+          <color>#092488</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_picture_edge</name>
+
+
+          <color>#5dcc6c</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>board</name>
+
+
+          <color>#ff6a4d</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+      </labels>
+
+
+      <segments>
+
+
+        <segment>
+
+
+          <id>2144</id>
+
+
+          <start>0</start>
+
+
+          <stop>0</stop>
+
+
+          <url>http://cvat.sharetheboard.com:8080/?id=2144</url>
+
+
+        </segment>
+
+
+      </segments>
+
+
+      <owner>
+
+
+        <username>f_nawrocki</username>
+
+
+        <email>nawrocki.fil@gmail.com</email>
+
+
+      </owner>
+
+
+      <assignee>
+
+
+        <username>f_nawrocki</username>
+
+
+        <email>nawrocki.fil@gmail.com</email>
+
+
+      </assignee>
+
+
+    </task>
+
+
+    <dumped>2023-01-26 10:29:27.687588+00:00</dumped>
+
+
+    <frame_source type="video" path="data/video/kartka_001.mp4">
+      <video name="kartka_001.mp4" frame="300"/>
+    </frame_source>
+  </meta>
+
+
+  <image id="0" name="kartka_001.mp4_frame_300.png" width="1920" height="1080">
+
+
+    <polygon label="person" occluded="0" source="manual" points="4.49,558.84;108.17,541.38;202.18,524.10;306.55,502.16;392.08,490.75;456.71,489.37;481.25,486.61;523.58,475.89;566.09,468.46;590.46,474.34;613.27,476.41;651.11,474.16;692.24,474.51;716.26,477.79;750.99,476.93;789.01,473.65;797.65,470.19;802.48,465.87;821.49,461.38;835.32,450.66;844.30,433.21;868.32,414.03;883.87,384.65;913.08,355.97;937.61,329.88;945.22,308.97;946.25,303.78;971.48,285.12;978.91,268.01;977.18,253.67;973.21,241.57;961.46,223.95;953.51,214.62;946.43,199.24;937.09,184.90;927.07,176.26;914.11,173.15;908.41,174.18;901.50,179.54;899.42,170.55;911.52,162.61;918.43,149.13;917.74,140.14;913.08,131.50;907.20,125.45;898.39,121.13;876.79,118.20;837.73,100.40;823.74,97.11;810.95,100.40;794.71,113.18;775.01,122.17;752.20,129.77;731.64,134.78;709.52,147.23;700.53,151.55;686.53,112.49;681.18,76.38;671.50,57.72;662.86,49.42;652.49,43.72;637.46,41.99;612.40,42.68;565.40,43.72;524.28,44.41;498.87,35.42;475.20,0.69;263.69,0.35;340.42,108.86;352.69,126.14;325.73,142.21;308.10,152.58;308.62,162.61;314.32,178.85;323.31,187.14;342.14,195.26;351.48,192.85;388.80,164.85;406.43,192.15;424.22,223.60;458.27,251.94;431.14,260.58;384.48,270.95;330.74,278.73;230.00,287.02;120.44,289.09;0.69,292.03" z_order="0">
+
+
+      <attribute name="hand_only">true</attribute>
+
+
+    </polygon>
+
+
+    <points label="visible_corner" occluded="0" source="manual" points="1064.43,123.44;1149.99,863.80;288.20,904.30" z_order="0">
+    </points>
+
+
+    <points label="invisible_corner" occluded="0" source="manual" points="500.92,156.58" z_order="0">
+    </points>
+
+
+    <polyline label="content_black" occluded="0" source="manual" points="925.20,167.50;962.80,167.10;1001.10,166.10;1034.50,163.00;1007.30,159.40;991.40,153.90;979.70,147.90" z_order="0">
+    </polyline>
+
+
+  </image>
+
+
+</annotations>

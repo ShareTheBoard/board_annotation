@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+
+
+  <version>1.1</version>
+
+
+  <meta>
+
+
+    <task>
+
+
+      <id>2289</id>
+
+
+      <name>4kolory_KZ_3.mp4_frame_750</name>
+
+
+      <size>1</size>
+
+
+      <mode>annotation</mode>
+
+
+      <overlap>0</overlap>
+
+
+      <bugtracker/>
+
+
+      <created>2022-01-13 12:28:51.175603+00:00</created>
+
+
+      <updated>2022-01-13 15:13:14.552862+00:00</updated>
+
+
+      <start_frame>0</start_frame>
+
+
+      <stop_frame>0</stop_frame>
+
+
+      <frame_filter/>
+
+
+      <labels>
+
+
+        <label>
+
+
+          <name>person</name>
+
+
+          <color>#c06060</color>
+
+
+          <attributes>
+
+
+            <attribute>
+
+
+              <name>hand_only</name>
+
+
+              <mutable>False</mutable>
+
+
+              <input_type>checkbox</input_type>
+
+
+              <default_value>false</default_value>
+
+
+              <values>false</values>
+
+
+            </attribute>
+
+
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_corner</name>
+
+
+          <color>#c1e0f5</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_corner</name>
+
+
+          <color>#aaf0d1</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_red</name>
+
+
+          <color>#fa3253</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_black</name>
+
+
+          <color>#000000</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_blue</name>
+
+
+          <color>#3d3df5</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_green</name>
+
+
+          <color>#24b353</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>reflection</name>
+
+
+          <color>#584eaf</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content</name>
+
+
+          <color>#fa3253</color>
+
+
+          <attributes>
+
+
+            <attribute>
+
+
+              <name>Difficult</name>
+
+
+              <mutable>True</mutable>
+
+
+              <input_type>checkbox</input_type>
+
+
+              <default_value>false</default_value>
+
+
+              <values>false</values>
+
+
+            </attribute>
+
+
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_mid_corner</name>
+
+
+          <color>#7fbb7d</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_mid_corner</name>
+
+
+          <color>#89a408</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_picture_edge</name>
+
+
+          <color>#092488</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_picture_edge</name>
+
+
+          <color>#5dcc6c</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>board</name>
+
+
+          <color>#ff6a4d</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+      </labels>
+
+
+      <segments>
+
+
+        <segment>
+
+
+          <id>2272</id>
+
+
+          <start>0</start>
+
+
+          <stop>0</stop>
+
+
+          <url>http://cvat.sharetheboard.com:8080/?id=2272</url>
+
+
+        </segment>
+
+
+      </segments>
+
+
+      <owner>
+
+
+        <username>k_zuber</username>
+
+
+        <email>zuber.karolina96@gmail.com</email>
+
+
+      </owner>
+
+
+      <assignee>
+
+
+        <username>k_zuber</username>
+
+
+        <email>zuber.karolina96@gmail.com</email>
+
+
+      </assignee>
+
+
+    </task>
+
+
+    <dumped>2023-01-26 10:29:05.872780+00:00</dumped>
+
+
+    <frame_source type="video" path="data/video/4kolory_KZ_3.mp4">
+      <video name="4kolory_KZ_3.mp4" frame="750"/>
+    </frame_source>
+  </meta>
+
+
+  <image id="0" name="4kolory_KZ_3.mp4_frame_750.png" width="1920" height="1080">
+
+
+    <points label="visible_corner" occluded="0" source="manual" points="629.48,922.10;1745.67,980.96;1731.99,170.24;682.95,153.24" z_order="0">
+    </points>
+
+
+    <polygon label="content" occluded="0" source="manual" points="790.00,895.71;788.28,945.56;1250.67,973.06;1254.97,917.20;790.00,895.71" z_order="0">
+
+
+      <attribute name="Difficult">true</attribute>
+
+
+    </polygon>
+
+
+    <polyline label="content_black" occluded="0" source="manual" points="851.91,622.36;858.60,619.20;987.91,621.16" z_order="0">
+    </polyline>
+
+
+    <polyline label="content_blue" occluded="0" source="manual" points="857.78,572.35;864.98,573.95;879.77,574.55;896.76,574.15;918.35,574.95;944.93,576.55;1023.89,580.54" z_order="0">
+    </polyline>
+
+
+    <polyline label="content_blue" occluded="0" source="manual" points="1167.80,298.51;1168.20,335.69;1168.80,340.28;1168.80,345.08;1167.40,351.70;1166.00,364.87;1166.20,373.27;1167.00,379.46;1166.80,389.26;1164.80,404.65;1164.80,416.24;1166.20,425.44;1168.80,448.42" z_order="0">
+    </polyline>
+
+
+    <polyline label="content_black" occluded="0" source="manual" points="1231.97,296.13;1232.11,310.01;1227.90,329.90;1227.60,335.40;1226.30,377.10;1225.50,405.30" z_order="0">
+    </polyline>
+
+
+    <polyline label="content_green" occluded="0" source="manual" points="1071.12,298.41;1067.96,328.39;1066.29,348.88;1064.63,376.86;1061.63,415.67;1060.63,436.99;1060.63,465.81;1060.30,495.79;1058.80,515.95;1057.63,527.28;1056.30,547.43" z_order="0">
+    </polyline>
+
+
+    <polyline label="content_green" occluded="0" source="manual" points="851.92,461.31;892.90,460.98;928.87,461.48;962.35,462.48;987.51,462.98;1014.16,462.98;1050.80,462.98;1093.78,463.65;1151.91,465.31" z_order="0">
+    </polyline>
+
+
+    <polyline label="content_red" occluded="0" source="manual" points="1114.02,296.85;1117.00,315.52;1118.25,327.46;1117.50,348.36;1117.10,377.40;1115.01,406.84;1115.76,419.78;1116.00,429.00;1115.00,450.00;1112.28,466.06;1110.04,500.15" z_order="0">
+    </polyline>
+
+
+    <polyline label="content_red" occluded="0" source="manual" points="855.78,513.78;884.57,514.18;915.75,515.98;970.72,517.18;1032.10,518.50;1086.45,520.98" z_order="0">
+    </polyline>
+
+
+  </image>
+
+
+</annotations>

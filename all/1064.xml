@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+
+
+  <version>1.1</version>
+
+
+  <meta>
+
+
+    <task>
+
+
+      <id>1064</id>
+
+
+      <name>filmik_20210914_2.mp4_frame_60</name>
+
+
+      <size>1</size>
+
+
+      <mode>annotation</mode>
+
+
+      <overlap>0</overlap>
+
+
+      <bugtracker/>
+
+
+      <created>2021-11-18 11:34:22.664428+00:00</created>
+
+
+      <updated>2021-11-26 08:04:13.822874+00:00</updated>
+
+
+      <start_frame>0</start_frame>
+
+
+      <stop_frame>0</stop_frame>
+
+
+      <frame_filter/>
+
+
+      <labels>
+
+
+        <label>
+
+
+          <name>person</name>
+
+
+          <color>#c06060</color>
+
+
+          <attributes>
+
+
+            <attribute>
+
+
+              <name>hand_only</name>
+
+
+              <mutable>False</mutable>
+
+
+              <input_type>checkbox</input_type>
+
+
+              <default_value>false</default_value>
+
+
+              <values>false</values>
+
+
+            </attribute>
+
+
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_corner</name>
+
+
+          <color>#c1e0f5</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_corner</name>
+
+
+          <color>#aaf0d1</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_red</name>
+
+
+          <color>#fa3253</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_black</name>
+
+
+          <color>#000000</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_blue</name>
+
+
+          <color>#3d3df5</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content_green</name>
+
+
+          <color>#24b353</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>reflection</name>
+
+
+          <color>#584eaf</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>content</name>
+
+
+          <color>#fa3253</color>
+
+
+          <attributes>
+
+
+            <attribute>
+
+
+              <name>Difficult</name>
+
+
+              <mutable>True</mutable>
+
+
+              <input_type>checkbox</input_type>
+
+
+              <default_value>false</default_value>
+
+
+              <values>false</values>
+
+
+            </attribute>
+
+
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_mid_corner</name>
+
+
+          <color>#7fbb7d</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_mid_corner</name>
+
+
+          <color>#89a408</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>invisible_picture_edge</name>
+
+
+          <color>#092488</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>visible_picture_edge</name>
+
+
+          <color>#5dcc6c</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+        <label>
+
+
+          <name>board</name>
+
+
+          <color>#ff6a4d</color>
+
+
+          <attributes>
+          </attributes>
+
+
+        </label>
+
+
+      </labels>
+
+
+      <segments>
+
+
+        <segment>
+
+
+          <id>1049</id>
+
+
+          <start>0</start>
+
+
+          <stop>0</stop>
+
+
+          <url>http://cvat.sharetheboard.com:8080/?id=1049</url>
+
+
+        </segment>
+
+
+      </segments>
+
+
+      <owner>
+
+
+        <username>k_zuber</username>
+
+
+        <email>zuber.karolina96@gmail.com</email>
+
+
+      </owner>
+
+
+      <assignee>
+
+
+        <username>k_zuber</username>
+
+
+        <email>zuber.karolina96@gmail.com</email>
+
+
+      </assignee>
+
+
+    </task>
+
+
+    <dumped>2023-01-26 10:32:07.731542+00:00</dumped>
+
+
+    <frame_source type="video" path="data/video/filmik_20210914_2.mp4">
+      <video name="filmik_20210914_2.mp4" frame="60"/>
+    </frame_source>
+  </meta>
+
+
+  <image id="0" name="filmik_20210914_2.mp4_frame_60.png" width="1920" height="1080">
+
+
+    <polyline label="content_black" occluded="0" source="manual" points="1003.19,490.27;998.50,510.39;994.48,527.67;991.62,541.08;989.95,551.64" z_order="0">
+    </polyline>
+
+
+    <points label="visible_corner" occluded="0" source="manual" points="1646.36,318.29;1663.80,1078.26" z_order="0">
+    </points>
+
+
+    <polygon label="content" occluded="0" source="manual" points="928.10,1034.40;1163.80,1053.13;1158.61,1080.00;1052.72,1080.00;932.28,1069.74;928.10,1034.40" z_order="0">
+
+
+      <attribute name="Difficult">true</attribute>
+
+
+    </polygon>
+
+
+    <points label="invisible_corner" occluded="0" source="manual" points="649.69,301.47;551.92,1010.65" z_order="0">
+    </points>
+
+
+    <polygon label="person" occluded="0" source="manual" points="310.73,1080.00;306.90,1055.60;317.30,1008.30;333.10,954.40;357.10,863.00;323.30,846.20;288.00,819.80;274.90,794.20;272.40,749.20;293.50,679.60;334.40,570.40;360.90,496.80;406.00,413.30;451.40,357.50;553.70,344.60;601.10,332.40;638.40,293.10;610.30,261.50;595.80,168.90;599.60,111.50;641.00,52.00;675.90,10.90;732.50,25.10;758.20,63.00;842.60,98.30;842.00,252.10;816.20,312.90;794.80,347.40;832.50,372.00;888.70,395.60;946.20,424.80;963.60,482.00;959.10,502.80;988.80,585.30;1004.30,610.00;1017.20,615.80;1028.80,558.50;1023.90,527.80;1017.10,499.40;1037.50,483.80;1069.70,460.60;1079.29,472.41;1092.21,515.47;1092.00,546.30;1073.00,578.30;1075.10,647.30;1064.70,697.30;1037.20,753.40;1001.00,754.80;922.10,713.30;902.70,680.10;907.70,763.70;908.60,831.90;912.60,910.50;920.10,970.70;927.90,1024.30;929.70,1058.20;931.50,1080.00;310.73,1080.00" z_order="0">
+
+
+      <attribute name="hand_only">false</attribute>
+
+
+    </polygon>
+
+
+  </image>
+
+
+</annotations>
