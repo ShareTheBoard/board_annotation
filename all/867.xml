@@ -1,1248 +1,566 @@
 <?xml version="1.0" encoding="utf-8"?>
 <annotations>
-
-
   <version>1.1</version>
-
-
   <meta>
-
-
     <task>
-
-
       <id>867</id>
-
-
       <name>accessmathlecture02-44601.mp4_frame_1000</name>
-
-
       <size>1</size>
-
-
       <mode>annotation</mode>
-
-
       <overlap>0</overlap>
-
-
       <bugtracker/>
-
-
       <created>2021-10-20 08:18:40.178274+00:00</created>
-
-
       <updated>2021-11-22 15:26:14.205860+00:00</updated>
-
-
       <start_frame>0</start_frame>
-
-
       <stop_frame>0</stop_frame>
-
-
       <frame_filter/>
-
-
       <labels>
-
-
         <label>
-
-
           <name>person</name>
-
-
           <color>#c06060</color>
-
-
           <attributes>
-
-
             <attribute>
-
-
               <name>hand_only</name>
-
-
               <mutable>False</mutable>
-
-
               <input_type>checkbox</input_type>
-
-
               <default_value>false</default_value>
-
-
               <values>false</values>
-
-
             </attribute>
-
-
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>visible_corner</name>
-
-
           <color>#c1e0f5</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>invisible_corner</name>
-
-
           <color>#aaf0d1</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>content_red</name>
-
-
           <color>#fa3253</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>content_black</name>
-
-
           <color>#000000</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>content_blue</name>
-
-
           <color>#3d3df5</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>content_green</name>
-
-
           <color>#24b353</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>reflection</name>
-
-
           <color>#584eaf</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>content</name>
-
-
           <color>#fa3253</color>
-
-
           <attributes>
-
-
             <attribute>
-
-
               <name>Difficult</name>
-
-
               <mutable>True</mutable>
-
-
               <input_type>checkbox</input_type>
-
-
               <default_value>false</default_value>
-
-
               <values>false</values>
-
-
             </attribute>
-
-
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>visible_mid_corner</name>
-
-
           <color>#7fbb7d</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>invisible_mid_corner</name>
-
-
           <color>#89a408</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>invisible_picture_edge</name>
-
-
           <color>#092488</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>visible_picture_edge</name>
-
-
           <color>#5dcc6c</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
         <label>
-
-
           <name>board</name>
-
-
           <color>#ff6a4d</color>
-
-
           <attributes>
           </attributes>
-
-
         </label>
-
-
       </labels>
-
-
       <segments>
-
-
         <segment>
-
-
           <id>852</id>
-
-
           <start>0</start>
-
-
           <stop>0</stop>
-
-
           <url>http://cvat.sharetheboard.com:8080/?id=852</url>
-
-
         </segment>
-
-
       </segments>
-
-
       <owner>
-
-
         <username>k_zuber</username>
-
-
         <email>zuber.karolina96@gmail.com</email>
-
-
       </owner>
-
-
       <assignee>
-
-
         <username>f_nawrocki</username>
-
-
         <email>nawrocki.fil@gmail.com</email>
-
-
       </assignee>
-
-
     </task>
-
-
     <dumped>2023-01-26 10:34:32.398519+00:00</dumped>
-
-
-    <frame_source type="video" path="data/video/accessmathlecture02-44601.mp4">
+    <frame_source type="video" path="video/accessmathlecture02-44601.mp4">
       <video name="accessmathlecture02-44601.mp4" frame="1000"/>
     </frame_source>
   </meta>
-
-
   <image id="0" name="accessmathlecture02-44601.mp4_frame_1000.png" width="1920" height="1080">
-
-
     <box label="content" occluded="0" source="manual" xtl="754.98" ytl="83.63" xbr="806.02" ybr="128.14" z_order="0">
-
-
       <attribute name="Difficult">true</attribute>
-
-
     </box>
-
-
     <box label="content" occluded="0" source="manual" xtl="73.49" ytl="892.64" xbr="762.82" ybr="1015.31" z_order="0">
-
-
       <attribute name="Difficult">true</attribute>
-
-
     </box>
-
-
     <box label="content" occluded="0" source="manual" xtl="37.03" ytl="413.98" xbr="142.97" ybr="1032.94" z_order="0">
-
-
       <attribute name="Difficult">true</attribute>
-
-
     </box>
-
-
     <points label="visible_corner" occluded="0" source="manual" points="43.85,90.54;44.23,995.88" z_order="0">
     </points>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="231.00,222.70;239.80,203.80;239.40,229.10;238.50,239.30" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="229.38,241.55;247.38,239.05" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="245.00,193.70;250.90,202.70;255.00,212.20;255.90,224.70;253.60,238.10;246.30,258.10" z_order="0">
     </polyline>
-
-
     <points label="content_blue" occluded="0" source="manual" points="263.70,243.50" z_order="0">
     </points>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="313.30,209.20;314.50,204.10;312.20,200.20;307.20,199.10;299.60,201.70;294.00,206.30;291.10,210.50;292.60,215.30;298.60,218.10;305.90,220.10;311.00,222.80;314.70,226.90;314.10,232.20;309.40,236.00;303.20,237.50;299.10,237.00;294.40,230.20" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="324.27,217.02;328.87,241.92;335.07,225.52;337.97,219.12;344.07,239.02;347.27,223.22;348.97,211.22" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="380.50,228.50;375.40,233.70;369.00,235.90;363.90,235.70;359.40,230.10;358.90,221.60;362.20,215.40;367.90,211.20;372.40,210.40;378.10,213.30;381.30,216.60;381.70,222.90;382.40,228.90;391.10,230.20" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="401.30,212.00;401.10,237.10;400.10,250.20;402.00,268.00" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="402.47,215.52;408.97,213.62;414.07,213.82;418.67,216.32;420.97,219.82;419.57,224.92;413.87,229.22;408.57,231.52;401.27,232.62" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="430.67,213.02;430.67,237.22;429.17,263.72" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="431.77,215.22;438.67,213.02;444.27,213.82;449.07,217.82;449.77,223.02;445.47,227.92;437.97,231.52;432.87,232.62;424.87,230.92" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="456.57,211.62;456.67,219.62;455.37,226.02;455.77,230.72;459.07,232.02;462.07,227.62" z_order="0">
     </polyline>
-
-
     <points label="content_blue" occluded="0" source="manual" points="457.27,203.82" z_order="0">
     </points>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="467.30,212.99;473.11,213.62;473.73,218.80;471.24,229.79;475.39,212.79;479.53,212.37;482.64,216.73;483.68,224.19;485.34,228.75;489.49,231.86" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="505.87,217.35;500.27,222.53;494.88,224.19;490.73,221.70;494.26,216.10;498.40,213.20;503.59,211.54;506.70,213.62;506.08,224.61;507.94,240.99;508.36,254.05;504.62,263.17;496.12,266.08;489.28,265.87;484.72,264.42;481.19,257.78" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="226.66,300.67;232.85,295.49;238.75,294.19;243.36,296.21;243.94,300.24;238.61,309.02;224.50,324.29;235.30,321.12;250.70,321.55" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="239.96,276.71;248.89,282.76;255.37,290.97;257.53,301.33;256.23,312.85;245.58,331.29;237.37,340.07" z_order="0">
     </polyline>
-
-
     <points label="content_blue" occluded="0" source="manual" points="259.26,333.59" z_order="0">
     </points>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="282.87,334.31;284.74,299.46;285.90,285.06" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="281.87,277.72;298.57,296.73;309.37,311.99;304.76,311.70;312.10,298.45;325.35,278.73;326.36,318.47;328.23,334.31" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="344.94,306.66;342.63,316.31;342.63,323.37;345.94,328.55;349.83,328.84;355.30,325.81;358.33,322.07;358.90,304.07;358.04,326.68;360.92,328.26;364.95,326.39" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="377.71,280.51;376.99,310.46;376.56,322.27;376.85,328.18;379.30,330.91;383.33,327.46" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="393.32,285.93;393.18,322.50;393.46,329.56;396.49,332.58;400.66,331.00;403.40,326.82" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="382.52,309.11;406.42,307.24" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="416.36,312.42;417.08,333.45" z_order="0">
     </polyline>
-
-
     <points label="content_blue" occluded="0" source="manual" points="416.79,301.62" z_order="0">
     </points>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="425.14,361.96;428.02,334.45;430.76,311.27" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="426.58,316.89;429.18,313.00;434.94,312.13;438.97,314.44;441.13,318.18;439.69,324.37;434.50,329.85;431.34,330.28;426.15,328.41" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="446.89,284.20;445.16,299.61;442.86,312.13;442.14,324.23;444.58,331.72;447.75,334.89;452.65,331.57" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="457.69,312.71;456.68,322.79;459.42,331.86" z_order="0">
     </polyline>
-
-
     <points label="content_blue" occluded="0" source="manual" points="462.73,302.63" z_order="0">
     </points>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="480.87,312.13;477.85,308.68;472.95,309.11;467.19,314.87;464.46,321.64;465.32,328.41;470.50,332.87;475.98,334.17;484.04,332.73" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="497.29,324.66;492.10,328.12;488.22,326.39;487.35,320.20;489.66,314.29;492.97,311.13;497.00,310.12;499.74,312.57;498.73,320.05;499.02,325.96;502.76,328.26;509.38,326.25" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="506.50,296.58;523.35,296.15" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="518.60,280.17;516.15,303.49;513.85,318.18;514.57,325.81;518.31,330.57;523.93,327.69;530.84,308.39;528.25,323.94;531.99,328.98;538.47,325.09" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="552.44,308.97;548.41,306.23;542.22,309.69;538.33,315.73;538.33,321.49;540.78,325.53;546.39,327.97;552.15,326.82;555.75,322.50;555.61,317.17;545.96,308.82" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="557.62,309.54;562.09,307.24;567.13,309.83;569.00,313.29;566.26,328.84;570.44,308.97;574.33,309.25;576.78,312.71;577.78,321.93;579.08,328.41;582.39,324.52" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="616.03,267.98;617.18,284.69;616.46,299.81;615.02,321.26;620.21,320.54;626.69,314.93;629.57,309.60;627.70,303.41;622.37,302.69;617.18,305.57" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="632.22,302.92;636.39,305.37;637.83,314.44;639.70,318.61;644.74,316.89;649.35,301.19;646.04,320.20;646.04,333.01;645.32,341.65;642.73,348.85;637.26,353.75;630.63,353.17;626.02,348.71;626.46,343.09" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="695.58,310.84;689.96,316.60;685.06,317.75;681.90,314.58;682.18,309.11;685.21,304.93;688.81,302.05;693.56,301.62;696.87,302.92;697.16,308.39;697.74,314.15;701.77,317.32;706.81,316.89;712.71,310.98" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="336.20,369.10;341.00,366.70;344.40,368.90;343.10,392.00;346.80,370.90;350.50,367.60;354.70,368.40;357.10,372.30;356.60,384.70;356.70,387.90;359.90,390.40" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="368.62,373.01;364.92,380.71;364.60,387.80;370.20,391.10;374.60,389.70;377.90,385.30;378.20,379.00" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="367.42,377.81;376.02,375.01;384.12,372.81;386.62,375.81;386.82,389.91;391.72,370.81;392.32,383.61;394.82,388.51;400.12,387.71" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="401.90,378.80;415.00,380.90" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="423.50,372.97;441.40,372.57;432.30,375.87;421.90,388.17;428.20,383.47;432.30,386.27;436.10,389.77;439.90,390.67;444.30,389.07" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="448.10,378.87;455.10,379.47;461.00,378.47;463.00,374.87;461.10,371.27;456.90,371.17;452.50,374.17;451.00,381.97;452.60,387.87;455.50,391.27;459.70,390.57;464.70,386.27;470.00,380.47" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="471.60,370.17;469.10,368.67;466.30,369.37;466.20,372.47;469.10,375.67;472.00,377.17;473.60,381.47;471.50,385.47;472.90,388.87;476.40,389.27;480.70,386.07;482.80,384.47" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="484.40,383.97;485.50,377.17;487.80,373.47;491.20,372.77;495.40,374.37;498.30,377.37;498.30,383.67;494.50,389.17;491.60,390.77;487.00,390.67;484.20,385.27" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="543.00,367.60;535.00,367.90;530.70,369.80;532.70,373.50;538.30,377.20;542.10,380.80;541.70,385.40;536.60,388.10;529.80,388.80;526.20,388.30;524.70,383.40;529.70,378.70" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="557.40,374.03;560.10,370.93;559.40,367.23;554.60,367.53;549.90,372.63;547.70,378.33;549.80,384.23;554.50,386.63;565.90,385.63" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="581.00,368.93;576.50,368.33;570.60,372.33;567.20,376.23;566.90,380.43;569.60,384.73;575.00,384.03;579.00,381.03;582.90,370.93;581.30,381.53;583.80,385.23;588.20,386.23;591.60,384.63" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="600.60,346.83;598.20,364.23;596.60,378.33;596.40,385.93;598.80,389.63" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="621.80,381.63;615.90,386.13;610.40,387.53;605.70,384.23;605.70,378.53;609.40,373.83;615.40,370.23;619.00,370.13;622.10,374.33;623.30,380.63;625.60,386.43;629.20,389.63" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="632.70,372.83;636.30,371.83;639.00,374.83;639.60,389.53;640.80,374.03;644.70,371.33;648.40,373.73;652.80,375.63;657.80,373.53" z_order="0">
     </polyline>
-
-
     <points label="content_blue" occluded="0" source="manual" points="653.80,385.53" z_order="0">
     </points>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="219.30,512.60;216.20,535.80" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="213.71,493.77;203.51,498.27;196.81,505.47;191.51,517.97;190.71,530.37;193.81,542.47;199.71,551.57;207.01,556.37;213.91,556.97;221.21,554.77;229.31,545.87;233.21,534.17;233.91,520.27;232.81,509.27;225.91,500.07;219.41,496.27;208.11,497.57" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="245.71,528.67;294.71,527.67;333.11,525.87;359.81,522.67" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="201.30,600.80;205.90,596.60;210.20,596.40;212.50,599.30;211.70,604.70;205.10,613.00;202.50,616.60;218.70,614.40" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="214.61,583.60;211.31,580.80;204.61,581.70;198.31,586.10;192.81,594.20;189.31,605.90;189.01,616.90;191.91,627.70;198.01,635.00;204.41,638.20;210.71,637.80;219.31,633.20;225.81,624.40;229.61,616.50;230.11,602.90;228.01,595.80;224.01,590.90;214.41,584.80" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="251.30,610.60;300.50,610.40;327.50,608.60;350.40,606.30" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="422.00,516.30;439.00,534.10;453.20,555.20" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="420.01,551.34;442.11,522.94;446.41,516.54" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="465.01,533.74;494.91,531.74" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="480.41,520.14;481.61,542.54;479.21,552.54" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="519.90,517.90;519.70,513.10;529.40,512.60;535.60,515.00;537.10,518.30;532.80,523.90;522.30,530.50;533.00,529.00;540.30,530.50;544.90,534.00;545.50,538.60;544.00,543.00;538.60,546.30;532.70,547.60;527.80,546.90;522.90,542.70" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="555.24,520.63;560.34,526.73;567.74,541.93" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="578.94,521.03;565.14,552.03;555.34,573.03;550.74,581.63" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="598.30,532.60;625.80,533.50" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="602.32,541.83;632.82,541.73" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="690.00,534.30;654.80,532.10;642.40,532.00;650.00,523.40;670.60,500.80;668.30,515.80;666.10,559.50" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="418.69,595.81;396.23,597.37;396.23,614.30;399.86,609.29;405.04,607.74;411.09,607.39;416.97,610.68;419.39,616.38;418.52,624.67;414.03,630.72;407.98,634.00;399.34,634.18;394.85,632.79;391.74,629.17" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="432.52,604.28;459.13,633.49" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="435.49,636.18;443.61,623.57;460.20,602.31" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="479.73,620.46;514.46,619.76" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="540.90,593.50;541.07,598.34;535.20,612.51;535.02,617.00;538.83,619.59;549.71,619.07;557.66,618.04" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="558.35,598.34;558.87,639.46" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="577.19,610.61;582.03,617.69;586.00,627.02;588.07,630.48;593.08,630.31;595.85,628.23;596.54,612.85;595.85,642.06;594.12,652.25;590.67,658.47;585.83,663.14;580.47,665.04" z_order="0">
     </polyline>
-
-
     <points label="content_blue" occluded="0" source="manual" points="569.58,664.00" z_order="0">
     </points>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="619.10,620.40;641.30,621.50" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="618.20,631.72;640.29,632.52" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="655.99,622.92;683.79,623.72" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="679.99,602.12;700.89,601.22;694.59,630.92;689.30,649.62" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="737.60,498.00;742.30,494.80;747.50,495.20;750.80,498.60;752.70,503.80;752.00,547.60;752.30,564.30;754.60,574.90;760.60,584.50;768.80,589.60;762.60,593.70;758.70,601.50;757.10,624.60;755.30,649.70;752.80,672.70;750.40,681.60;745.50,688.00;736.10,690.70" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="932.80,556.20;940.40,566.70;950.70,582.50;956.20,591.80" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="927.84,589.17;940.04,573.57;953.44,555.87" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="967.14,573.07;1000.34,573.37" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="982.54,558.07;980.34,594.77" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1023.70,555.30;1029.90,551.10;1035.30,551.30;1038.30,554.90;1037.90,560.30;1029.80,570.80;1036.20,566.70;1042.70,567.00;1046.70,569.80;1047.60,575.60;1044.00,581.80;1037.80,586.30;1031.90,588.40;1025.00,588.60;1018.50,583.30" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1051.38,557.79;1056.38,558.49;1060.18,563.19;1064.58,576.89;1066.80,583.60" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1077.38,560.09;1070.68,577.59;1061.38,600.79;1053.08,621.19" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1093.40,575.50;1124.60,576.30" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1094.98,585.19;1119.98,584.39;1129.58,581.89" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1160.90,606.10;1165.90,567.90;1169.90,547.00;1165.30,554.20;1151.10,568.00;1139.50,577.60;1157.60,576.80;1189.60,578.10" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="979.60,654.70;1010.10,651.30" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1035.80,620.00;1033.90,642.10;1030.10,659.00;1025.40,678.10;1026.20,682.70" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1070.20,643.80;1063.40,645.70;1058.60,645.20;1054.70,642.80;1052.40,637.60;1053.90,633.00;1057.90,629.80;1063.00,627.40;1068.60,627.20;1072.70,628.60;1074.50,631.30;1072.20,642.50;1066.80,667.60;1061.40,685.00" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1098.90,650.90;1099.00,662.30;1099.90,666.80;1103.40,670.60;1107.10,671.60;1111.50,670.30;1115.80,666.80" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1119.78,651.53;1115.68,677.03;1113.08,696.13;1110.98,705.93;1107.98,712.53;1103.08,717.53;1097.28,719.63;1090.68,719.03;1087.28,717.13;1085.78,710.93" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1137.90,664.60;1170.70,664.60" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1136.94,678.79;1172.24,678.29" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1189.94,667.19;1216.44,665.79" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1226.04,649.89;1227.84,644.89;1231.94,644.19;1235.64,645.19;1237.94,648.19;1235.64,656.89;1229.54,668.49;1221.64,685.29;1219.94,690.09;1244.64,690.09" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1249.90,648.20;1249.90,642.40;1270.90,643.30;1265.00,680.80;1263.70,697.10" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1283.30,547.90;1289.30,547.30;1293.00,548.30;1295.40,551.20;1295.10,559.00;1292.10,570.00;1289.90,579.40;1289.50,588.70;1292.00,597.30;1295.50,602.10;1301.10,606.40;1307.20,608.80;1300.40,612.50;1296.30,617.20;1291.70,628.30;1289.90,645.80;1289.30,661.00;1289.50,681.30;1290.00,708.90;1290.00,722.50;1287.70,728.60;1282.70,732.30;1272.20,733.10" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1322.40,484.40;1322.30,532.60;1322.40,543.80;1338.70,543.00" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1348.30,540.90;1354.20,542.40;1350.90,550.50;1355.90,548.90;1358.60,551.00;1358.00,556.80;1354.30,560.50;1350.80,561.20;1344.60,557.50" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1392.40,513.30;1413.50,511.70" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1393.71,521.52;1415.11,520.22" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1447.90,526.80;1472.20,527.60" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1505.91,507.22;1486.31,508.02;1486.31,523.82;1489.31,519.72;1494.31,519.02;1498.11,519.62;1502.01,522.22;1504.71,526.52;1504.71,533.92;1501.61,539.52;1497.11,542.42;1492.81,543.32;1488.21,542.52;1481.51,536.62" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1519.80,503.10;1518.50,534.80;1517.90,543.80;1535.90,544.20" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1547.21,540.52;1547.01,558.82" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1575.20,517.10;1601.50,515.30" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1587.81,502.02;1584.91,533.72" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1627.70,493.70;1625.60,525.50;1624.40,538.80;1646.30,539.30" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1657.20,539.50;1661.80,537.30;1664.90,538.00;1665.00,542.30;1661.30,547.40;1655.60,555.10;1671.10,555.40" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1383.60,603.20;1407.70,601.30" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1385.80,614.00;1407.90,612.80" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1421.50,607.20;1441.50,606.60" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1467.70,591.90;1455.70,592.40;1455.90,605.00;1460.50,602.10;1465.20,602.30;1469.20,605.00;1470.70,608.90;1469.80,613.50;1466.50,616.70;1462.60,617.80;1457.50,616.80" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1493.30,570.50;1487.00,585.10;1482.80,603.00;1482.80,620.20;1485.10,633.20;1492.80,645.70" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1497.10,595.10;1505.60,603.90;1515.80,620.70" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1499.50,618.30;1504.20,608.50;1512.30,595.40" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1529.60,594.80;1529.60,619.20" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1519.70,607.40;1539.50,607.00" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1543.10,598.60;1546.20,594.70;1549.90,594.20;1552.80,596.10;1551.70,600.20;1546.90,606.80;1551.20,603.80;1555.50,604.90;1557.70,609.00;1557.40,614.10;1553.10,617.20;1547.60,617.90;1543.50,614.40" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1566.00,599.64;1567.56,607.32;1567.44,615.12;1571.76,615.12;1575.84,610.32;1577.88,601.68;1576.80,617.64;1577.04,629.88;1575.00,636.60;1570.80,639.00;1565.52,638.52;1561.20,634.92" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1586.64,609.58;1603.08,607.78" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1614.84,595.06;1610.28,603.70;1610.04,608.26;1613.04,609.58;1618.32,609.34;1624.08,608.98" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1623.00,596.50;1623.60,613.30;1622.28,620.86" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1619.10,572.40;1627.50,577.50;1632.80,584.90;1636.70,593.50;1638.00,608.30;1637.10,621.10;1634.10,634.20;1628.00,645.90;1624.80,650.70;1619.40,654.10" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1650.22,609.26;1675.92,607.66" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1663.62,596.26;1662.52,623.26" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1693.60,567.00;1686.80,583.90;1683.00,603.90;1681.50,622.60;1683.80,637.90;1687.00,646.80;1693.70,661.40" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1706.50,585.40;1692.90,585.80;1693.40,596.10;1696.50,593.50;1701.50,593.90;1704.80,597.40;1705.00,603.40;1701.30,608.20;1696.30,609.20;1691.30,606.10" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1710.62,592.96;1723.02,609.86" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1709.82,611.16;1721.22,592.46" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1724.32,602.46;1740.22,601.86" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1749.42,583.56;1743.22,595.36;1743.22,598.66;1755.72,598.26" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1757.52,587.76;1757.92,611.16" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1763.62,597.96;1764.32,609.96;1770.92,605.26;1771.62,598.46;1771.62,623.36" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1757.82,630.06;1769.42,629.66" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1777.22,605.76;1794.22,605.46" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1785.42,598.26;1785.82,615.66" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1793.12,590.66;1803.52,590.06;1803.42,598.26;1798.62,615.36" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1803.10,567.70;1809.00,578.10;1811.70,590.30;1811.30,613.10;1808.60,630.50;1802.90,650.40;1796.80,662.50" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1390.59,678.72;1414.23,677.69" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1394.60,689.80;1418.50,690.20" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1446.00,684.90;1467.30,685.60" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1477.51,666.50;1480.11,676.00;1480.21,700.20" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1505.00,673.30;1500.40,678.10;1496.50,679.20;1493.20,677.10;1492.40,672.20;1495.70,667.80;1499.60,665.70;1504.50,667.20;1506.30,670.80;1507.10,686.50;1507.50,694.50;1510.10,698.00" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1517.00,680.20;1521.80,681.10;1523.10,685.40;1522.80,692.30;1525.10,696.10;1529.30,691.20;1532.70,680.70;1532.60,701.50;1532.50,712.60;1529.30,719.10;1524.90,722.30;1519.20,722.50;1515.80,721.50;1513.60,716.70" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1541.31,689.60;1568.21,690.10" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1554.51,678.30;1552.81,703.70" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1574.90,681.70;1575.30,675.10;1579.10,673.20;1583.60,673.90;1586.40,676.90;1586.30,681.80;1580.50,691.20;1573.90,700.20;1574.70,702.90;1594.60,701.60" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1595.11,675.50;1598.01,673.40;1615.11,672.80;1610.81,678.20;1608.71,708.90" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1695.00,168.40;1696.50,174.80;1692.20,199.10;1691.70,208.10;1705.20,206.20" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1713.46,208.12;1716.36,204.92;1719.96,204.82;1722.16,207.12;1721.56,210.02;1713.86,218.52;1721.96,217.72;1729.76,216.32" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1729.80,360.30;1729.80,382.30;1728.30,396.10;1730.40,399.30;1742.10,396.60" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1747.70,405.40;1751.30,400.10;1754.40,394.30;1755.30,404.10;1754.10,414.30" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1748.83,415.85;1761.43,415.85" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="922.80,280.00;924.10,301.10;923.20,329.40;941.20,325.10" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="946.83,324.45;951.83,323.85;951.63,328.55;947.43,334.15;952.23,331.95;955.63,332.35;957.43,335.75;956.93,339.55;953.53,342.75;950.13,343.65;944.03,340.55" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1006.80,326.80;1012.30,331.10;1018.40,339.00" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1022.63,327.91;1017.44,344.81;1010.63,363.21" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1025.53,344.21;1034.63,343.61" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1024.23,351.51;1036.13,350.61" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1047.34,337.01;1047.73,332.01;1051.34,330.61;1054.73,332.11;1055.23,336.11;1052.13,341.31;1046.44,348.71;1055.94,347.71" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1060.03,333.51;1069.34,331.71;1060.53,346.71" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1043.53,356.61;1065.94,354.31" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1049.90,361.10;1049.80,380.60" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1065.23,368.41;1060.53,370.51;1057.23,369.51;1056.33,367.01;1057.43,364.51;1060.03,363.11;1064.13,363.31;1066.13,365.31;1065.13,381.81" z_order="0">
     </polyline>
-
-
     <polyline label="content_red" occluded="0" source="manual" points="1014.80,315.00;1062.30,314.70;1119.50,314.00;1191.10,311.30;1264.70,312.00;1286.90,313.90;1346.40,314.40;1405.10,313.90;1477.00,313.90;1538.00,313.20;1582.00,311.20" z_order="0">
     </polyline>
-
-
     <points label="content_red" occluded="0" source="manual" points="1319.68,315.43" z_order="0">
     </points>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1499.00,196.00;1485.20,198.10;1483.40,214.80;1487.60,209.40;1491.50,207.30;1495.40,207.60;1498.20,209.70;1499.40,213.60;1499.30,218.40;1496.00,222.40;1491.40,223.80;1487.60,223.50;1483.60,220.90" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1503.34,218.34;1517.45,200.24" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1502.14,203.24;1506.84,202.84;1510.34,205.94;1519.54,221.14" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1518.95,210.74;1535.95,209.14" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1547.95,192.14;1549.45,195.74;1545.04,205.04;1546.64,207.14;1554.24,207.24;1559.64,205.64" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1559.95,194.34;1560.54,219.54" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1573.40,202.30;1571.40,211.60;1571.40,215.70;1573.10,217.40;1579.00,215.80;1581.30,202.40;1580.30,221.70;1578.40,230.80;1574.40,238.50;1570.50,238.20;1566.50,235.80" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1592.80,210.90;1602.10,210.60;1606.50,212.50" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1593.15,218.64;1612.75,218.74" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1620.75,210.04;1640.25,210.54" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1645.40,197.50;1662.00,198.60;1647.70,230.20" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1542.70,363.40;1558.90,385.40" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1544.55,385.12;1557.05,366.62" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1557.55,375.52;1578.85,374.52" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1570.95,365.32;1569.85,385.62" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1588.70,366.20;1593.70,362.50;1597.60,362.60;1599.60,365.60;1599.40,368.40;1593.70,375.40;1599.80,373.40;1603.70,374.70;1605.90,377.90;1605.40,382.40;1600.80,386.10;1595.60,387.60;1592.00,386.90;1592.00,386.90;1590.10,383.70" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1611.05,367.82;1612.75,372.72;1612.75,378.72;1615.15,380.22;1620.65,376.22;1622.95,367.03;1622.35,385.82;1621.55,397.12;1619.05,403.22;1615.55,406.53;1611.05,406.72;1606.85,401.03" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1635.50,374.70;1655.90,373.90" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1639.05,382.03;1657.35,381.32" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1691.15,376.92;1673.05,378.42;1674.85,374.03;1683.45,364.22;1683.65,382.22;1682.35,394.92" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1053.20,253.20;1097.10,264.70;1138.40,273.10;1202.70,287.40;1255.70,299.40;1291.50,307.50;1303.00,309.90" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1325.80,309.77;1375.20,281.97;1416.90,255.87;1458.20,225.37" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1337.90,319.10;1366.20,324.90;1420.00,339.20;1478.50,353.70;1503.50,358.60" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1310.80,318.70;1293.80,328.60;1272.40,340.90;1248.20,354.60;1215.00,372.80;1178.10,391.60;1138.00,413.40;1103.00,431.60;1060.10,454.90;1040.00,466.00;1023.30,476.50" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="985.90,400.10;1072.60,401.40;1145.50,403.50;1216.70,406.20;1299.80,409.80;1381.20,414.20;1433.80,418.00" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1426.42,406.83;1445.42,416.63;1436.21,419.63;1421.02,429.03" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1104.70,221.90;1121.50,195.60;1132.60,218.50" z_order="0">
     </polyline>
-
-
     <polyline label="content_blue" occluded="0" source="manual" points="1119.73,203.82;1118.73,238.32;1117.83,293.82;1115.43,335.82;1113.43,370.82;1111.23,389.82;1108.53,415.52;1106.43,450.92;1106.23,476.82" z_order="0">
     </polyline>
-
-
     <polyline label="content_black" occluded="0" source="manual" points="1846.30,121.50;1843.90,175.20;1842.10,226.60;1843.20,299.00;1842.90,356.80;1844.30,421.40;1846.60,488.50;1846.40,547.30;1845.20,591.10;1844.00,611.10" z_order="0">
     </polyline>
-
-
     <polyline label="content_black" occluded="0" source="manual" points="1844.10,616.75;1854.06,635.95;1858.26,640.39;1867.86,641.95" z_order="0">
     </polyline>
-
-
     <polyline label="content_black" occluded="0" source="manual" points="1841.20,695.80;1841.60,735.20;1840.50,761.20;1834.50,801.10;1831.70,828.50;1828.70,868.00;1826.50,909.00;1824.90,949.20" z_order="0">
     </polyline>
-
-
     <points label="visible_corner" occluded="0" source="manual" points="1918.04,102.57;1918.04,979.41" z_order="0">
     </points>
-
-
   </image>
-
-
 </annotations>
