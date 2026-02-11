@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>505</id>
+      <name>biuro_17.mp4_frame_240</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker/>
+      <created>2021-09-16 09:26:19.712593+00:00</created>
+      <updated>2021-10-03 07:54:14.765335+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter/>
+      <labels>
+        <label>
+          <name>person</name>
+          <color>#c06060</color>
+          <attributes>
+            <attribute>
+              <name>hand_only</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_corner</name>
+          <color>#c1e0f5</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_corner</name>
+          <color>#aaf0d1</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_red</name>
+          <color>#fa3253</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_black</name>
+          <color>#000000</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_blue</name>
+          <color>#3d3df5</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_green</name>
+          <color>#24b353</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>reflection</name>
+          <color>#584eaf</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content</name>
+          <color>#fa3253</color>
+          <attributes>
+            <attribute>
+              <name>Difficult</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_mid_corner</name>
+          <color>#7fbb7d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_mid_corner</name>
+          <color>#89a408</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_picture_edge</name>
+          <color>#092488</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_picture_edge</name>
+          <color>#5dcc6c</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>board</name>
+          <color>#ff6a4d</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>490</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>http://cvat.sharetheboard.com:8080/?id=490</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>k_zuber</username>
+        <email>zuber.karolina96@gmail.com</email>
+      </owner>
+      <assignee>
+        <username>f_nawrocki</username>
+        <email>nawrocki.fil@gmail.com</email>
+      </assignee>
+    </task>
+    <dumped>2023-01-26 10:38:59.515923+00:00</dumped>
+    <frame_source type="video" path="video/biuro_17.mp4">
+      <video name="biuro_17.mp4" frame="240"/>
+    </frame_source>
+  </meta>
+  <image id="0" name="biuro_17.mp4_frame_240.png" width="1280" height="720">
+    <box label="content" occluded="0" source="manual" xtl="695.20" ytl="655.50" xbr="884.04" ybr="688.40" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <polygon label="person" occluded="0" source="manual" points="286.70,720.00;292.40,707.80;300.30,692.30;306.90,679.60;309.20,675.40;312.80,653.80;315.50,648.00;318.10,642.90;318.30,637.20;309.10,635.20;300.20,632.30;286.80,626.90;276.30,622.10;270.20,618.50;256.20,617.40;251.70,615.80;248.40,610.50;246.20,606.00;244.80,598.30;244.70,589.00;246.90,576.90;252.40,555.50;273.70,506.60;285.80,477.40;292.50,459.80;299.70,442.60;314.70,414.10;323.20,400.80;322.90,385.70;322.20,376.10;324.10,366.10;324.00,361.10;324.80,360.70;328.20,361.30;343.00,361.00;345.50,346.90;346.10,346.40;349.10,346.30;347.60,339.30;352.30,317.50;353.30,296.90;353.20,266.90;372.70,235.80;385.30,214.80;402.20,187.70;415.80,170.20;430.10,159.70;445.30,151.80;456.00,145.40;465.00,144.10;477.30,149.30;483.00,153.50;499.10,146.00;504.80,145.30;508.80,146.20;531.30,148.80;549.90,152.80;572.00,160.90;585.70,173.00;596.00,191.30;605.50,217.70;602.60,230.50;604.70,237.30;600.30,241.20;601.70,248.90;606.70,254.90;607.70,260.50;606.60,263.40;603.10,265.70;601.30,269.00;600.60,275.80;598.60,283.00;596.10,292.80;592.10,305.20;591.40,309.80;589.40,312.80;588.00,315.20;583.90,316.70;567.40,317.30;558.30,318.40;556.90,319.60;556.60,325.00;559.60,325.20;564.20,326.20;572.60,330.50;578.00,330.20;588.50,331.40;591.90,332.40;592.80,337.40;592.30,340.50;598.50,341.60;602.70,338.90;607.00,339.50;612.80,339.60;616.10,337.30;623.10,332.40;626.50,333.40;628.10,336.60;628.50,339.50;626.10,342.70;627.30,347.30;644.90,353.60;665.40,360.40;682.30,370.50;698.90,381.90;718.50,392.20;759.00,402.60;763.30,402.40;766.60,401.70;793.30,351.60;808.80,308.00;810.20,304.10;809.30,293.50;808.50,289.10;803.70,283.50;800.90,277.70;798.90,267.70;791.70,257.70;789.40,255.30;788.30,249.60;788.60,247.00;790.10,245.50;791.80,243.80;797.80,242.80;799.80,240.80;805.70,231.90;814.80,224.20;819.40,223.20;824.30,224.10;832.70,231.60;835.10,230.70;838.00,230.90;840.00,233.30;840.30,240.00;843.80,243.10;847.90,246.00;849.20,248.90;849.20,260.00;843.60,282.80;840.50,293.60;836.40,322.30;831.30,361.90;828.00,384.30;825.80,394.40;821.50,406.10;814.40,427.20;804.00,449.10;799.80,455.10;797.00,456.50;793.70,457.60;786.00,457.90;762.00,464.50;742.70,467.30;721.30,468.00;688.50,463.70;654.00,458.80;642.50,457.10;637.80,459.30;634.20,463.10;629.60,470.50;621.70,481.00;621.60,486.40;625.70,498.30;621.60,505.90;622.70,538.70;624.90,563.90;625.40,577.20;622.50,605.40;620.50,619.70;625.50,656.50;626.40,664.30;628.10,673.20;635.60,720.00" z_order="0">
+      <attribute name="hand_only">false</attribute>
+    </polygon>
+    <box label="content" occluded="0" source="manual" xtl="118.64" ytl="316.67" xbr="228.90" ybr="478.20" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <box label="content" occluded="0" source="manual" xtl="320.14" ytl="331.57" xbr="365.44" ybr="362.57" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <box label="content" occluded="0" source="manual" xtl="326.79" ytl="271.55" xbr="372.41" ybr="314.68" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <box label="content" occluded="0" source="manual" xtl="231.41" ytl="298.72" xbr="308.75" ybr="394.31" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <box label="content" occluded="0" source="manual" xtl="278.46" ytl="227.87" xbr="346.27" ybr="297.07" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <box label="content" occluded="0" source="manual" xtl="126.40" ytl="249.47" xbr="211.50" ybr="327.11" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <box label="content" occluded="0" source="manual" xtl="365.70" ytl="134.50" xbr="457.90" ybr="166.10" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <box label="content" occluded="0" source="manual" xtl="334.74" ytl="165.97" xbr="385.72" ybr="234.81" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <box label="content" occluded="0" source="manual" xtl="268.27" ytl="174.00" xbr="328.50" ybr="250.56" z_order="0">
+      <attribute name="Difficult">false</attribute>
+    </box>
+    <box label="content" occluded="0" source="manual" xtl="185.60" ytl="193.80" xbr="275.30" ybr="293.00" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <box label="content" occluded="0" source="manual" xtl="120.60" ytl="185.60" xbr="176.60" ybr="258.40" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <points label="visible_corner" occluded="0" source="manual" points="133.10,188.70;1075.70,65.50;1135.10,677.00;27.90,635.20" z_order="0">
+    </points>
+    <polyline label="content_green" occluded="0" source="manual" points="679.10,240.60;679.10,254.60;674.90,291.20" z_order="0">
+    </polyline>
+    <polyline label="content_green" occluded="0" source="manual" points="705.64,246.68;707.74,247.18;709.34,247.08;710.84,246.38;712.14,245.48;715.54,242.78;717.24,240.98;717.94,238.88;718.34,237.08;718.14,235.68;716.74,235.28;715.04,235.58;713.14,236.08;710.54,236.78;708.04,238.48;705.94,239.78;704.14,241.28;701.84,243.48;698.04,248.18;690.74,257.38;684.74,264.58;670.94,278.48;677.84,274.48;678.94,274.28;680.34,274.78;681.84,275.78;683.74,277.38;686.24,280.28;688.04,284.58;689.84,288.48;692.44,291.48;695.34,293.58;697.54,294.18;699.64,293.88;701.64,293.38;703.94,291.78;705.94,289.88;707.44,287.98;708.54,286.28" z_order="0">
+    </polyline>
+    <polyline label="content_green" occluded="0" source="manual" points="720.64,262.98;720.14,265.48;719.14,271.78;718.24,276.08;717.84,280.48;718.44,285.18;719.44,288.48;721.44,290.68;723.64,292.88;726.54,294.58;729.04,295.08;731.24,295.08;732.84,294.88;734.54,294.48;736.44,293.68;738.64,291.38;741.14,288.28;744.74,283.58;746.34,280.38;748.14,275.98;749.94,270.88;750.64,265.08;751.24,258.88;751.34,253.88;751.34,250.38;750.64,248.48;749.94,246.98;749.03,245.58;747.64,243.88;746.03,242.48;743.64,241.78;740.94,241.68;738.14,241.98;735.64,242.68;733.44,243.58;731.53,244.28;730.03,245.28;728.24,246.48;726.53,248.18;724.94,250.18;723.84,252.08;722.24,254.98;721.34,257.78;720.84,260.58;719.54,263.08" z_order="0">
+    </polyline>
+    <polyline label="content_green" occluded="0" source="manual" points="755.70,292.50;758.70,270.70;762.30,240.60;784.80,268.10;797.10,285.00;795.20,262.30" z_order="0">
+    </polyline>
+  </image>
+</annotations>

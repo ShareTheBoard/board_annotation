@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>486</id>
+      <name>biuro_12.mp4_frame_720</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker/>
+      <created>2021-09-16 09:16:38.930447+00:00</created>
+      <updated>2021-10-08 10:43:42.657207+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter/>
+      <labels>
+        <label>
+          <name>person</name>
+          <color>#c06060</color>
+          <attributes>
+            <attribute>
+              <name>hand_only</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_corner</name>
+          <color>#c1e0f5</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_corner</name>
+          <color>#aaf0d1</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_red</name>
+          <color>#fa3253</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_black</name>
+          <color>#000000</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_blue</name>
+          <color>#3d3df5</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_green</name>
+          <color>#24b353</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>reflection</name>
+          <color>#584eaf</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content</name>
+          <color>#fa3253</color>
+          <attributes>
+            <attribute>
+              <name>Difficult</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_mid_corner</name>
+          <color>#7fbb7d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_mid_corner</name>
+          <color>#89a408</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_picture_edge</name>
+          <color>#092488</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_picture_edge</name>
+          <color>#5dcc6c</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>board</name>
+          <color>#ff6a4d</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>471</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>http://cvat.sharetheboard.com:8080/?id=471</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>k_zuber</username>
+        <email>zuber.karolina96@gmail.com</email>
+      </owner>
+      <assignee>
+        <username>k_zuber</username>
+        <email>zuber.karolina96@gmail.com</email>
+      </assignee>
+    </task>
+    <dumped>2023-01-26 10:39:13.694267+00:00</dumped>
+    <frame_source type="video" path="video/biuro_12.mp4">
+      <video name="biuro_12.mp4" frame="720"/>
+    </frame_source>
+  </meta>
+  <image id="0" name="biuro_12.mp4_frame_720.png" width="1280" height="720">
+    <polyline label="content_green" occluded="0" source="manual" points="660.30,247.20;692.89,244.43;715.55,242.22" z_order="0">
+    </polyline>
+    <polyline label="content_green" occluded="0" source="manual" points="688.72,244.68;689.27,272.59;689.27,293.59;689.27,311.55" z_order="0">
+    </polyline>
+    <points label="visible_corner" occluded="0" source="manual" points="1138.50,680.60;1079.07,62.80" z_order="0">
+    </points>
+    <points label="invisible_corner" occluded="0" source="manual" points="40.20,634.30;136.00,189.80" z_order="0">
+    </points>
+    <polygon label="person" occluded="0" source="manual" points="3.80,720.00;20.30,653.10;36.30,565.20;41.10,516.90;45.70,488.50;50.50,462.80;56.50,437.40;66.20,417.80;79.60,393.50;89.60,380.74;98.50,368.20;92.45,360.78;73.92,342.24;62.20,321.10;59.10,287.70;69.90,257.80;81.90,239.30;97.00,217.30;116.20,196.20;129.00,180.80;162.10,176.90;170.90,166.30;200.30,174.60;223.40,169.70;247.30,172.60;269.24,178.28;287.80,185.10;303.50,202.80;316.50,235.50;314.40,254.10;330.80,275.00;331.60,282.40;326.00,286.10;315.70,289.80;315.00,301.30;312.00,304.10;313.30,309.10;308.00,314.50;305.20,331.90;270.70,332.90;290.30,336.10;294.60,344.80;289.30,359.60;300.20,382.90;305.10,388.60;306.30,400.80;322.50,444.30;346.10,494.10;365.00,485.40;375.70,480.40;377.00,485.30;385.80,488.90;392.10,504.30;391.50,529.60;389.30,556.80;381.80,577.40;371.00,590.10;358.90,597.50;345.10,599.50;324.10,598.10;322.80,601.70;320.30,609.30;315.50,612.80;308.90,648.40;302.90,720.00;3.80,720.00" z_order="0">
+      <attribute name="hand_only">false</attribute>
+    </polygon>
+    <polygon label="content" occluded="0" source="manual" points="351.41,493.97;390.56,544.17;400.46,531.50;380.19,476.93;351.41,493.97" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" occluded="0" source="manual" points="284.30,176.20;321.42,366.80;503.76,350.30;514.49,141.55;457.56,147.33;456.73,134.95;385.78,144.03;366.80,164.65;284.30,176.20" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+  </image>
+</annotations>

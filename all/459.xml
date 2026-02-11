@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>459</id>
+      <name>Funkcja.mp4_frame_240</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker/>
+      <created>2021-09-13 06:34:26.704924+00:00</created>
+      <updated>2021-10-03 15:10:02.954096+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter/>
+      <labels>
+        <label>
+          <name>person</name>
+          <color>#c06060</color>
+          <attributes>
+            <attribute>
+              <name>hand_only</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_corner</name>
+          <color>#c1e0f5</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_corner</name>
+          <color>#aaf0d1</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_red</name>
+          <color>#fa3253</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_black</name>
+          <color>#000000</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_blue</name>
+          <color>#3d3df5</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_green</name>
+          <color>#24b353</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>reflection</name>
+          <color>#584eaf</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content</name>
+          <color>#fa3253</color>
+          <attributes>
+            <attribute>
+              <name>Difficult</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_mid_corner</name>
+          <color>#7fbb7d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_mid_corner</name>
+          <color>#89a408</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_picture_edge</name>
+          <color>#092488</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_picture_edge</name>
+          <color>#5dcc6c</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>board</name>
+          <color>#ff6a4d</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>444</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>http://cvat.sharetheboard.com:8080/?id=444</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>w_jakubowska</username>
+        <email>weronika.jakubowska@poczta.onet.pl</email>
+      </owner>
+      <assignee>
+        <username>f_nawrocki</username>
+        <email>nawrocki.fil@gmail.com</email>
+      </assignee>
+    </task>
+    <dumped>2023-01-26 10:39:34.061819+00:00</dumped>
+    <frame_source type="video" path="video/Funkcja.mp4">
+      <video name="Funkcja.mp4" frame="240"/>
+    </frame_source>
+  </meta>
+  <image id="0" name="Funkcja.mp4_frame_240.png" width="1920" height="1080">
+    <polygon label="person" occluded="0" source="manual" points="372.50,1079.30;370.60,1058.50;373.40,1041.20;372.50,1003.90;372.10,978.80;371.30,943.50;369.90,907.50;370.90,873.30;377.30,850.00;391.50,830.90;396.70,818.90;394.40,801.70;394.70,787.30;393.10,771.90;394.30,749.60;399.60,733.30;403.00,712.40;401.90,693.90;405.70,667.30;395.90,649.00;389.10,639.80;358.60,611.80;335.80,571.10;321.50,526.20;314.40,497.80;331.10,476.10;344.90,461.20;356.70,438.70;365.90,428.20;396.70,409.50;424.20,399.40;443.90,393.80;443.90,372.70;455.70,346.50;458.20,322.50;457.60,301.00;470.00,269.40;470.70,238.00;474.00,230.30;492.20,214.90;497.20,201.90;505.80,188.10;514.30,177.40;519.80,170.90;528.70,164.00;534.40,159.40;553.40,158.10;564.90,155.90;578.50,156.60;597.50,162.10;604.60,163.30;614.40,167.00;622.30,173.10;634.20,181.60;640.60,186.80;646.30,195.20;650.00,200.10;651.90,205.00;657.90,211.70;661.70,216.90;663.70,222.70;664.80,235.50;665.20,242.40;663.90,248.30;664.00,254.10;663.00,259.00;662.60,265.50;662.40,271.80;661.50,276.30;657.30,279.40;655.90,296.10;655.20,307.90;652.30,320.90;646.60,338.80;640.30,354.40;636.60,361.60;630.30,369.00;626.70,372.70;614.90,379.40;613.00,381.20;610.60,387.30;613.30,390.00;617.40,392.40;619.70,394.80;627.20,396.10;636.10,397.70;647.40,400.40;657.80,403.00;670.60,406.80;677.50,406.90;682.90,405.30;673.80,392.80;662.50,374.50;657.50,364.30;658.50,359.20;660.90,357.10;663.20,355.10;665.70,351.10;668.10,349.30;668.50,341.40;670.10,339.70;677.00,340.60;681.10,341.10;688.00,335.80;695.70,330.00;702.60,326.80;707.30,327.80;710.80,333.00;713.30,339.70;713.90,345.20;717.10,349.20;724.30,354.00;729.50,358.40;732.20,361.50;733.60,371.00;734.60,389.60;734.30,406.30;734.20,412.80;736.40,421.10;749.40,444.90;763.30,467.40;785.00,499.50;793.30,512.70;804.20,533.40;806.00,545.40;803.70,561.20;800.10,571.50;790.30,580.10;773.30,588.60;763.10,591.90;756.60,592.70;747.00,592.50;740.00,589.50;732.80,586.20;724.80,580.80;720.70,578.30;714.40,573.50;709.00,569.10;706.30,566.20;706.50,570.90;706.50,575.90;704.10,582.90;704.10,589.90;706.10,597.20;705.00,601.60;703.70,605.90;705.90,623.00;705.60,636.50;704.10,644.10;702.40,646.00;704.10,664.30;704.30,686.10;709.80,707.90;713.50,728.00;715.30,742.00;715.80,756.60;716.10,768.20;718.10,772.90;723.10,781.40;731.80,790.10;739.80,796.10;745.00,805.30;749.70,816.60;749.10,824.40;747.10,832.00;746.40,843.50;747.70,848.60;751.40,854.20;755.10,862.30;758.30,870.20;757.30,881.20;759.70,896.00;774.90,928.70;773.70,941.20;773.70,945.40;777.30,952.80;784.30,990.10;795.10,1036.30;805.10,1079.80" z_order="0">
+      <attribute name="hand_only">false</attribute>
+    </polygon>
+    <box label="content" occluded="0" source="manual" xtl="1067.66" ytl="712.11" xbr="1451.64" ybr="758.55" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <polygon label="person" occluded="0" source="manual" points="273.12,658.69;267.08,689.02;267.50,723.63;272.71,744.27;283.23,755.42;299.60,763.76;315.03,768.86;365.79,783.15;393.72,786.48;404.67,779.18;415.82,744.47;407.90,715.60;401.44,709.56;390.39,703.20;378.40,696.84;369.85,693.50;379.03,664.00;383.51,657.13;387.99,639.93;386.95,625.85;367.04,588.12;347.86,540.80;330.87,513.80;315.80,503.70;308.46,517.55;300.43,542.05;292.30,573.84;285.63,602.71;278.34,633.46" z_order="0">
+      <attribute name="hand_only">false</attribute>
+    </polygon>
+    <box label="content" occluded="0" source="manual" xtl="1346.42" ytl="591.22" xbr="1421.07" ybr="693.24" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </box>
+    <points label="visible_corner" occluded="0" source="manual" points="558.70,98.10;1444.10,40.20;1476.70,735.70" z_order="0">
+    </points>
+    <points label="invisible_corner" occluded="0" source="manual" points="532.04,752.04" z_order="0">
+    </points>
+    <polyline label="content_black" occluded="0" source="manual" points="910.20,118.80;910.30,125.50;911.20,130.90;912.00,137.70;910.80,148.80;910.10,158.00;909.50,173.50;909.60,190.60;908.10,216.10;908.30,238.40;908.80,270.40;911.90,313.10;911.90,358.00;914.40,411.10;913.80,444.40;915.60,485.10;921.20,561.40;923.60,596.40" z_order="0">
+    </polyline>
+  </image>
+</annotations>
