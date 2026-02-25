@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>5</id>
+      <name>92</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker />
+      <frame_filter />
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <labels>
+        <label>
+          <name>person</name>
+          <color>#c06060</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>hand_only</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_corner</name>
+          <color>#c1e0f5</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_corner</name>
+          <color>#aaf0d1</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_red</name>
+          <color>#fa3253</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_black</name>
+          <color>#000000</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_blue</name>
+          <color>#3d3df5</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_green</name>
+          <color>#24b353</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>reflection</name>
+          <color>#584eaf</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content</name>
+          <color>#fa3253</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Difficult</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_mid_corner</name>
+          <color>#7fbb7d</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_mid_corner</name>
+          <color>#89a408</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_picture_edge</name>
+          <color>#092488</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_picture_edge</name>
+          <color>#5dcc6c</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>board</name>
+          <color>#ff6a4d</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_white</name>
+          <color>#ffffff</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>5</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url />
+        </segment>
+      </segments>
+    </task>
+    <dumped>2026-02-25T15:56:53.131282+00:00</dumped>
+  </meta>
+  <image id="0" name="92.jpg" subset="default" task_id="2726" width="1280" height="854">
+    <polygon label="board" source="manual" occluded="0" points="0.89,58.05;176.93,62.65;176.05,530.96;0.00,530.08;0.00,431.68" z_order="0">
+    </polygon>
+    <polygon label="board" source="manual" occluded="0" points="198.80,63.05;197.97,528.22;889.35,531.29;901.16,75.31" z_order="0">
+    </polygon>
+    <points label="visible_corner" source="manual" occluded="0" points="889.11,531.15;901.40,76.01" z_order="0">
+    </points>
+    <points label="visible_mid_corner" source="manual" occluded="0" points="188.25,63.01;186.19,530.20" z_order="0">
+    </points>
+    <points label="visible_picture_edge" source="manual" occluded="0" points="0.02,529.61;0.58,58.68" z_order="0">
+    </points>
+    <polygon label="content" source="manual" occluded="0" points="105.55,64.32;107.88,123.56;163.63,132.27;173.79,122.98;173.50,78.52;162.18,64.00" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="18.15,62.52;46.32,86.33;73.30,73.00" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="260.61,65.13;268.16,78.78;276.58,74.72;273.10,64.84" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="92.78,194.35;91.33,200.74;99.75,202.48;100.91,198.41;101.20,195.22" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="622.79,71.70;623.37,82.12;646.60,82.99;655.60,71.96" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="502.29,69.34;502.29,73.70;512.74,73.70;508.96,69.34" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="556.29,72.83;556.88,78.35;564.13,78.35;567.04,72.57" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="288.41,77.96;287.20,86.42;313.62,79.97;318.05,66.26;304.14,66.26" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="201.26,264.53;201.55,286.89;221.59,286.60;216.36,262.79" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="299.11,200.65;298.82,207.33;304.05,207.91;307.53,200.36" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="334.86,271.84;298.06,316.17;339.04,357.98;350.33,347.53;350.30,285.50" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="308.63,490.10;299.57,499.86;309.68,504.74;313.51,490.45" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="person" source="manual" occluded="0" points="549.60,854.00;538.24,797.08;533.69,744.51;528.50,708.81;522.66,677.00;524.61,664.67;519.48,665.19;516.88,665.78;514.61,664.28;511.17,660.52;514.94,651.43;517.47,640.27;520.00,625.15;521.69,618.52;522.14,602.82;523.63,584.97;526.23,557.97;512.14,558.88;502.80,559.27;492.35,552.97;479.95,546.03;474.95,539.92;470.73,531.42;468.07,510.78;474.50,493.84;479.37,490.86;481.64,483.72;486.12,475.86;487.61,461.58;492.15,458.92;493.26,444.64;514.68,392.07;521.82,385.71;526.29,372.14;532.33,371.82;545.44,363.19;566.15,360.14;556.28,343.52;559.66,302.95;566.41,269.14;568.68,246.94;576.21,227.79;594.96,212.02;618.27,209.43;640.40,212.80;657.66,225.20;676.81,252.20;687.00,283.03;702.77,313.47;707.06,334.76;704.20,349.88;698.68,364.48;692.45,368.64;720.62,380.65;727.96,395.77;740.16,383.76;743.86,377.01;750.61,372.47;755.61,373.57;757.55,376.56;756.06,384.22;763.85,398.11;768.20,400.51;768.65,405.70;763.65,415.31;751.39,436.85;753.79,440.23;750.61,455.16;749.31,458.27;753.20,479.89;756.12,486.96;755.86,500.53;761.06,508.57;769.36,528.63;766.96,542.20;741.78,566.34;734.38,568.94;725.68,567.64;715.04,561.80;718.54,582.24;732.37,652.86;730.49,665.39;717.38,675.06;713.29,725.16;708.48,747.23;700.57,778.78;689.34,827.59;684.71,854.00;581.45,854.00" z_order="0">
+      <attribute name="hand_only">false</attribute>
+    </polygon>
+    <polyline label="content_white" source="manual" occluded="0" points="700.95,90.11;698.59,92.47;702.40,92.47;699.50,94.28;701.67,94.82;701.13,96.27;702.94,96.27" z_order="0">
+    </polyline>
+    <polyline label="content_white" source="manual" occluded="0" points="766.49,200.25;763.45,197.64;761.49,192.64;761.49,189.38;762.80,184.38;766.06,180.04;769.36,176.26;773.86,173.17;778.67,170.67;783.86,169.15;787.56,168.86;793.47,168.76;796.27,170.26;799.06,173.17;802.47,178.45;804.47,184.45;805.05,191.06;804.27,198.06;801.47,203.95;798.16,208.80;794.77,212.19;790.77,214.99" z_order="0">
+    </polyline>
+    <polyline label="content_white" source="manual" occluded="0" points="787.86,216.29;781.16,219.69;774.46,223.49;769.36,226.89;765.56,230.29;763.96,232.89" z_order="0">
+    </polyline>
+    <polyline label="content_white" source="manual" occluded="0" points="760.93,238.50;760.09,241.62;759.37,244.98;759.37,246.90" z_order="0">
+    </polyline>
+    <polyline label="content_white" source="manual" occluded="0" points="760.69,252.66;760.69,254.82;762.49,258.30;764.53,260.34;768.49,263.70" z_order="0">
+    </polyline>
+    <polyline label="content_white" source="manual" occluded="0" points="765.64,285.91;767.14,283.51;770.64,280.11;772.64,278.91;772.94,279.51;772.64,281.41;772.14,283.01;770.14,283.81;768.24,283.71;767.04,282.01;766.64,280.51;766.54,278.81;766.54,277.51;767.44,276.61;768.64,276.21;769.74,276.41;770.84,277.11;771.74,277.91;772.74,278.91" z_order="0">
+    </polyline>
+    <polygon label="content" source="manual" occluded="0" points="782.36,518.32;793.47,527.64;797.77,525.13;787.02,510.08" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="873.02,489.65;873.02,511.15;883.77,509.72;881.98,490.37" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polyline label="content_white" source="manual" occluded="0" points="393.64,170.44;396.04,170.34" z_order="0">
+    </polyline>
+    <polygon label="content" source="manual" occluded="0" points="709.23,132.51;708.54,136.48;684.87,137.52;683.66,134.07" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="680.54,159.99;693.51,186.08;698.52,181.59;686.59,153.94" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="787.53,214.87;788.73,217.07;791.23,216.27;790.13,214.17" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="760.03,237.37;762.53,238.67;764.43,233.67;762.33,232.27" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+    <polygon label="content" source="manual" occluded="0" points="758.43,247.77;760.83,247.47;761.63,251.87;758.83,252.77" z_order="0">
+      <attribute name="Difficult">true</attribute>
+    </polygon>
+  </image>
+</annotations>
