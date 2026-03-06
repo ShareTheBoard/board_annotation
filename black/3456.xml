@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>3456</id>
+      <name>YT_dark_KZ_17.3.mp4_frame_450</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker />
+      <created>2022-03-04 15:14:48.043443+00:00</created>
+      <updated>2022-03-21 11:44:28.242915+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter />
+      <labels>
+        <label>
+          <name>content</name>
+          <color>#80f8bb</color>
+          <attributes>
+            <attribute>
+              <name>Difficult</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>person</name>
+          <color>#c06060</color>
+          <attributes>
+            <attribute>
+              <name>hand_only</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_corner</name>
+          <color>#2a7dd1</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_corner</name>
+          <color>#3d3df5</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_red</name>
+          <color>#fa3253</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_white</name>
+          <color>#3df53d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_blue</name>
+          <color>#3d3df5</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>content_green</name>
+          <color>#24b353</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>reflection</name>
+          <color>#f078f0</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_mid_corner</name>
+          <color>#89a408</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_mid_corner</name>
+          <color>#64be70</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>invisible_picture_edge</name>
+          <color>#676770</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>visible_picture_edge</name>
+          <color>#9e96c3</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>board</name>
+          <color>#3d3df5</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>3436</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>http://cvat.sharetheboard.com/?id=3436</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>k_zuber</username>
+        <email>zuber.karolina96@gmail.com</email>
+      </owner>
+      <assignee>
+        <username>k_zuber</username>
+        <email>zuber.karolina96@gmail.com</email>
+      </assignee>
+    </task>
+    <dumped>2023-10-23 09:18:08.324162+00:00</dumped>
+  <frame_source type="video" path="video/YT_dark_KZ_17.3.mp4"><video name="YT_dark_KZ_17.3.mp4" frame="450" /></frame_source></meta>
+  <image id="0" name="YT_dark_KZ_17.3.mp4_frame_450.png" width="1920" height="1080">
+    <polygon label="visible_corner" occluded="0" source="manual" points="421.12,2.08;417.76,1071.14;1499.77,1074.50;1497.61,2.56" z_order="0">
+    </polygon>
+    <polygon label="content_green" occluded="0" source="manual" points="852.57,601.95;831.94,589.57;798.94,547.29;773.15,497.78;762.84,457.56;768.00,430.74;776.25,413.21;852.57,601.95" z_order="0">
+    </polygon>
+    <polygon label="person" occluded="0" source="manual" points="1193.08,1078.78;1077.92,898.29;1026.35,815.78;956.73,728.12;906.02,670.53;888.84,632.72;848.44,588.02;814.92,494.34;765.07,380.89;766.79,334.48;777.96,306.12;804.61,297.53;824.38,290.65;829.53,285.49;825.24,257.99;820.08,230.49;824.38,215.02;839.85,203.84;850.16,200.41;875.08,209.86;874.22,177.20;885.40,160.01;900.87,151.42;915.48,152.28;931.81,159.15;942.12,169.47;949.86,187.52;977.36,165.17;997.99,160.01;1014.32,166.89;1032.37,185.80;1036.66,204.70;1054.71,293.23;1063.31,327.61;1067.60,370.58;1077.92,438.48;1083.93,517.55;1135.50,605.21;1183.63,671.39;1302.24,795.15;1441.47,928.37;1500.10,986.00;1500.60,1080.00;1193.08,1078.78" z_order="0">
+      <attribute name="hand_only">false</attribute>
+    </polygon>
+    <points label="visible_picture_edge" occluded="0" source="manual" points="421.46,0.67;420.43,1076.37;1499.22,0.00" z_order="0">
+    </points>
+    <points label="invisible_picture_edge" occluded="0" source="manual" points="1499.43,1078.45" z_order="0">
+    </points>
+  </image>
+</annotations>
