@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <annotations>
   <version>1.1</version>
   <meta>
@@ -8,12 +8,12 @@
       <size>1</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
-      <bugtracker />
+      <bugtracker/>
       <created>2022-03-04 15:21:27.267342+00:00</created>
       <updated>2022-03-28 21:57:21.303687+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
-      <frame_filter />
+      <frame_filter/>
       <labels>
         <label>
           <name>content</name>
@@ -132,14 +132,17 @@
       </assignee>
     </task>
     <dumped>2023-10-23 09:17:32.563429+00:00</dumped>
-  <frame_source type="video" path="video/YT_dark_KZ_23.1.mp4"><video name="YT_dark_KZ_23.1.mp4" frame="600" /></frame_source></meta>
+    <frame_source type="video" path="video/YT_dark_KZ_23.1.mp4">
+      <video name="YT_dark_KZ_23.1.mp4" frame="600"/>
+    </frame_source>
+  </meta>
   <image id="0" name="YT_dark_KZ_23.1.mp4_frame_600.png" width="1920" height="1080">
     <polygon label="visible_corner" occluded="0" source="manual" points="35.20,461.60;31.00,1006.70;1872.30,1005.60;1869.50,466.20" z_order="0">
     </polygon>
     <points label="visible_corner" occluded="0" source="manual" points="34.48,461.31;30.59,1008.36;1872.02,1006.83;1868.96,465.76" z_order="0">
     </points>
-    <polygon label="content" occluded="0" source="manual" points="34.70,929.00;34.70,1049.89;421.84,1048.16;418.10,972.46;148.40,929.28;34.70,929.00" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" occluded="0" source="manual" points="34.70,929.00;34.70,1049.89;421.84,1048.16;418.10,972.46;148.40,929.28;34.70,929.00" z_order="0">
+      
     </polygon>
     <polygon label="person" occluded="0" source="manual" points="0.00,693.08;21.87,692.08;38.46,684.48;42.26,680.89;53.45,675.09;86.23,662.10;108.02,650.30;135.80,630.91;135.20,627.92;136.80,618.52;142.60,605.13;148.00,593.74;149.60,585.34;148.80,580.14;150.40,577.75;153.39,576.75;156.19,578.35;159.79,583.34;161.79,587.94;161.79,595.34;159.59,604.73;167.19,601.93;169.38,598.13;173.18,595.34;176.78,594.34;182.78,594.74;186.37,596.54;187.97,600.13;187.37,604.53;190.77,606.53;191.97,609.73;193.17,614.32;192.57,617.92;190.77,620.92;192.37,624.92;191.57,637.91;188.97,643.71;182.18,650.10;174.18,654.10;156.39,659.10;132.81,679.69;115.02,695.28;102.62,707.27;84.83,717.86;64.45,728.86;57.45,733.26;28.30,742.90;0.00,750.05;0.00,693.08" z_order="0">
       <attribute name="hand_only">false</attribute>

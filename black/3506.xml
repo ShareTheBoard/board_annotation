@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <annotations>
   <version>1.1</version>
   <meta>
@@ -8,12 +8,12 @@
       <size>1</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
-      <bugtracker />
+      <bugtracker/>
       <created>2022-03-04 15:35:51.602597+00:00</created>
       <updated>2022-03-09 10:17:15.607202+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
-      <frame_filter />
+      <frame_filter/>
       <labels>
         <label>
           <name>content</name>
@@ -132,7 +132,10 @@
       </assignee>
     </task>
     <dumped>2023-10-23 09:16:48.789155+00:00</dumped>
-  <frame_source type="video" path="video/YT_dark_KZ_34.1.mp4"><video name="YT_dark_KZ_34.1.mp4" frame="750" /></frame_source></meta>
+    <frame_source type="video" path="video/YT_dark_KZ_34.1.mp4">
+      <video name="YT_dark_KZ_34.1.mp4" frame="750"/>
+    </frame_source>
+  </meta>
   <image id="0" name="YT_dark_KZ_34.1.mp4_frame_750.png" width="1920" height="1080">
     <polygon label="visible_corner" occluded="0" source="manual" points="786.90,276.90;783.20,887.10;1759.76,907.76;1763.24,278.08" z_order="0">
     </polygon>
@@ -245,8 +248,8 @@
     <polyline label="content" occluded="0" source="manual" points="1351.40,829.47;1350.88,838.11;1348.98,844.85;1346.39,851.07;1342.07,857.12;1337.92,861.27" z_order="0">
       <attribute name="Difficult">false</attribute>
     </polyline>
-    <polygon label="content" occluded="0" source="manual" points="1597.24,290.79;1593.53,361.99;1747.70,363.23;1748.32,295.74;1597.24,290.79" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" occluded="0" source="manual" points="1597.24,290.79;1593.53,361.99;1747.70,363.23;1748.32,295.74;1597.24,290.79" z_order="0">
+      
     </polygon>
     <polyline label="content_white" occluded="0" source="manual" points="1075.70,390.90;1053.39,416.08;1065.86,425.67;1076.89,436.23" z_order="0">
     </polyline>

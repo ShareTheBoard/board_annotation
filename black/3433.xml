@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <annotations>
   <version>1.1</version>
   <meta>
@@ -8,12 +8,12 @@
       <size>1</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
-      <bugtracker />
+      <bugtracker/>
       <created>2022-03-03 10:12:13.828528+00:00</created>
       <updated>2022-03-07 16:02:53.830065+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
-      <frame_filter />
+      <frame_filter/>
       <labels>
         <label>
           <name>content</name>
@@ -132,7 +132,10 @@
       </assignee>
     </task>
     <dumped>2023-10-23 09:18:41.874449+00:00</dumped>
-  <frame_source type="video" path="video/blackboard_016.mp4"><video name="blackboard_016.mp4" frame="900" /></frame_source></meta>
+    <frame_source type="video" path="video/blackboard_016.mp4">
+      <video name="blackboard_016.mp4" frame="900"/>
+    </frame_source>
+  </meta>
   <image id="0" name="blackboard_016.mp4_frame_900.png" width="1920" height="1080">
     <polygon label="person" occluded="0" source="manual" points="544.90,852.80;543.20,841.40;550.50,841.40;552.10,844.60;555.10,861.00;556.87,874.16;558.67,887.00;556.28,893.87;552.69,891.18;551.50,885.51;550.30,876.30;547.70,864.00" z_order="0">
       <attribute name="hand_only">false</attribute>
@@ -143,8 +146,8 @@
     <polygon label="person" occluded="0" source="manual" points="879.76,1078.48;920.72,1017.14;944.22,975.67;958.39,949.57;965.47,930.22;973.77,917.95;973.77,907.41;1002.80,895.14;1011.78,882.18;1047.21,858.16;1043.41,843.99;1046.52,834.66;1052.05,834.14;1064.66,838.81;1076.58,820.32;1082.46,820.84;1085.05,822.91;1095.25,804.25;1102.68,804.08;1113.22,809.09;1120.99,816.00;1120.30,818.77;1108.38,835.53;1119.44,843.48;1133.26,857.13;1143.46,872.16;1141.04,884.43;1133.26,893.76;1126.52,904.13;1118.05,930.74;1113.73,950.44;1103.89,971.17;1097.66,990.70;1087.47,994.16;1075.03,1016.45;1033.73,1028.37;1002.97,1038.91;979.47,1079.69" z_order="0">
       <attribute name="hand_only">false</attribute>
     </polygon>
-    <polygon label="content" occluded="0" source="manual" points="1412.69,1078.59;1445.36,1024.84;1440.63,995.17;1455.68,946.59;1490.94,901.01;1523.62,873.92;1567.48,862.31;1600.16,866.61;1635.42,880.37;1672.83,910.04;1697.33,941.43;1706.36,967.23;1707.65,985.71;1706.79,1003.77;1695.61,1030.86;1669.39,1080.00" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" occluded="0" source="manual" points="1412.69,1078.59;1445.36,1024.84;1440.63,995.17;1455.68,946.59;1490.94,901.01;1523.62,873.92;1567.48,862.31;1600.16,866.61;1635.42,880.37;1672.83,910.04;1697.33,941.43;1706.36,967.23;1707.65,985.71;1706.79,1003.77;1695.61,1030.86;1669.39,1080.00" z_order="0">
+      
     </polygon>
     <points label="visible_corner" occluded="0" source="manual" points="473.05,45.99;444.13,885.65;1848.09,1041.19" z_order="0">
     </points>

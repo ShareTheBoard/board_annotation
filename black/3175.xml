@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <annotations>
   <version>1.1</version>
   <meta>
@@ -8,12 +8,12 @@
       <size>1</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
-      <bugtracker />
+      <bugtracker/>
       <created>2022-02-14 11:51:46.671408+00:00</created>
       <updated>2022-02-25 15:34:57.181324+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
-      <frame_filter />
+      <frame_filter/>
       <labels>
         <label>
           <name>content</name>
@@ -132,7 +132,10 @@
       </assignee>
     </task>
     <dumped>2023-10-23 09:20:41.316015+00:00</dumped>
-  <frame_source type="video" path="video/YT_dark_KZ_9.2.mp4"><video name="YT_dark_KZ_9.2.mp4" frame="1650" /></frame_source></meta>
+    <frame_source type="video" path="video/YT_dark_KZ_9.2.mp4">
+      <video name="YT_dark_KZ_9.2.mp4" frame="1650"/>
+    </frame_source>
+  </meta>
   <image id="0" name="YT_dark_KZ_9.2.mp4_frame_1650.png" width="1920" height="1080">
     <points label="visible_picture_edge" occluded="0" source="manual" points="1918.42,1042.25;1920.00,1.94;0.75,204.27" z_order="0">
     </points>
@@ -425,11 +428,11 @@
     </polyline>
     <polyline label="content_white" occluded="0" source="manual" points="266.50,341.64;268.98,354.33;267.49,360.31;264.51,367.27;259.53,374.49;250.57,380.21;244.85,381.21;243.60,378.47;244.35,368.77;247.83,355.58;255.05,340.90" z_order="0">
     </polyline>
-    <polygon label="content" occluded="0" source="manual" points="0.87,680.56;43.84,675.55;58.88,684.86;100.42,686.29;134.80,709.21;122.63,781.55;100.42,924.79;52.44,1080.00;0.00,1080.00;0.87,680.56" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" occluded="0" source="manual" points="0.87,680.56;43.84,675.55;58.88,684.86;100.42,686.29;134.80,709.21;122.63,781.55;100.42,924.79;52.44,1080.00;0.00,1080.00;0.87,680.56" z_order="0">
+      
     </polygon>
-    <polygon label="content" occluded="0" source="manual" points="471.15,905.94;474.05,941.58;521.71,943.65;528.35,900.55;471.15,905.94" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" occluded="0" source="manual" points="471.15,905.94;474.05,941.58;521.71,943.65;528.35,900.55;471.15,905.94" z_order="0">
+      
     </polygon>
     <polyline label="content_white" occluded="0" source="manual" points="67.10,660.09;55.02,674.38;54.75,678.13;56.55,680.91;58.63,682.30;61.13,682.99;63.21,682.71;64.60,681.05;64.88,678.27;65.30,672.44;65.99,671.47;67.79,669.80;70.57,670.64;75.43,673.27;78.62,678.41;81.95,681.46;84.59,682.71;85.98,680.91;85.84,677.85" z_order="0">
     </polyline>

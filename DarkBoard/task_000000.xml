@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <annotations>
   <version>1.1</version>
   <meta>
@@ -8,8 +8,8 @@
       <size>1</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
-      <bugtracker />
-      <frame_filter />
+      <bugtracker/>
+      <frame_filter/>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
       <labels>
@@ -138,12 +138,15 @@
           <id>0</id>
           <start>0</start>
           <stop>0</stop>
-          <url />
+          <url/>
         </segment>
       </segments>
     </task>
     <dumped>2026-02-25T15:56:53.097162+00:00</dumped>
-  <frame_source type="image" path="DarkBoard/4.jpg"><image_file file="4.jpg" /></frame_source></meta>
+    <frame_source type="image" path="DarkBoard/4.jpg">
+      <image_file file="4.jpg"/>
+    </frame_source>
+  </meta>
   <image id="0" name="4.jpg" subset="default" task_id="2721" width="1280" height="852">
     <points label="visible_corner" source="manual" occluded="0" points="964.36,144.95" z_order="0">
     </points>
@@ -161,14 +164,14 @@
     </points>
     <points label="visible_mid_corner" source="manual" occluded="0" points="35.10,102.00" z_order="0">
     </points>
-    <polygon label="content" source="manual" occluded="0" points="45.95,106.13;51.13,101.99;60.46,101.47;67.55,107.69;72.21,117.71;68.93,125.14;60.64,127.04;51.82,126.52;43.53,119.44" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" source="manual" occluded="0" points="45.95,106.13;51.13,101.99;60.46,101.47;67.55,107.69;72.21,117.71;68.93,125.14;60.64,127.04;51.82,126.52;43.53,119.44" z_order="0">
+      
     </polygon>
-    <polygon label="content" source="manual" occluded="0" points="50.09,133.96;57.70,133.09;64.44,135.86;67.20,141.56;68.24,148.82;64.09,154.52;56.14,157.28;47.85,155.90;43.01,150.54;42.49,143.63;45.90,136.40" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" source="manual" occluded="0" points="50.09,133.96;57.70,133.09;64.44,135.86;67.20,141.56;68.24,148.82;64.09,154.52;56.14,157.28;47.85,155.90;43.01,150.54;42.49,143.63;45.90,136.40" z_order="0">
+      
     </polygon>
-    <polygon label="content" source="manual" occluded="0" points="228.20,726.10;269.58,676.08;352.99,584.07;490.46,717.15;249.58,725.83" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" source="manual" occluded="0" points="228.20,726.10;269.58,676.08;352.99,584.07;490.46,717.15;249.58,725.83" z_order="0">
+      
     </polygon>
     <polyline label="content_white" source="manual" occluded="0" points="8.09,138.06;0.39,137.66" z_order="0">
     </polyline>

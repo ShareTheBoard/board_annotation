@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <annotations>
   <version>1.1</version>
   <meta>
@@ -8,12 +8,12 @@
       <size>1</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
-      <bugtracker />
+      <bugtracker/>
       <created>2022-02-27 11:05:19.756196+00:00</created>
       <updated>2022-04-15 21:52:43.956371+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
-      <frame_filter />
+      <frame_filter/>
       <labels>
         <label>
           <name>content</name>
@@ -132,14 +132,17 @@
       </assignee>
     </task>
     <dumped>2023-10-23 09:19:30.734799+00:00</dumped>
-  <frame_source type="video" path="video/blackboard_011.mp4"><video name="blackboard_011.mp4" frame="450" /></frame_source></meta>
+    <frame_source type="video" path="video/blackboard_011.mp4">
+      <video name="blackboard_011.mp4" frame="450"/>
+    </frame_source>
+  </meta>
   <image id="0" name="blackboard_011.mp4_frame_450.png" width="1280" height="720">
     <polygon label="board" occluded="0" source="manual" points="29.05,0.00;26.89,131.82;1277.40,152.37;1278.48,0.00" z_order="0">
     </polygon>
     <polygon label="board" occluded="0" source="manual" points="33.05,180.27;26.08,573.19;1263.88,582.81;1266.20,198.84" z_order="0">
     </polygon>
-    <box label="content" occluded="0" source="manual" xtl="1075.90" ytl="568.50" xbr="1231.40" ybr="600.10" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <box label="difficult" occluded="0" source="manual" xtl="1075.90" ytl="568.50" xbr="1231.40" ybr="600.10" z_order="0">
+      
     </box>
     <polygon label="person" occluded="0" source="manual" points="138.31,720.00;147.49,677.03;157.98,638.13;163.95,622.10;141.08,598.93;126.36,576.92;116.74,559.15;116.74,540.20;132.19,499.26;151.86,439.80;161.04,410.07;167.16,406.29;173.14,390.99;181.00,384.72;201.11,376.71;229.09,367.09;257.80,360.24;264.94,347.42;271.79,327.45;269.89,305.89;273.83,258.53;299.47,241.77;312.59,240.17;349.02,241.62;350.33,254.45;382.24,256.20;383.99,269.75;386.91,292.48;385.45,307.93;388.95,317.25;391.86,322.93;393.03,329.64;382.24,334.88;379.77,345.38;377.43,350.48;374.96,360.09;367.23,367.67;360.82,377.87;349.60,383.55;330.80,388.95;347.71,403.81;359.22,417.07;363.30,424.50;365.63,438.78;373.35,455.98;378.75,474.05;379.62,487.45;379.33,497.94;383.55,510.48;386.76,530.29;405.27,528.40;437.18,531.02;482.93,528.69;502.02,524.76;526.65,514.56;534.40,513.60;545.16,513.54;556.81,512.08;561.62,517.91;563.23,526.80;564.83,540.64;560.02,546.03;548.95,552.30;507.56,557.40;487.45,569.35;472.73,574.15;435.28,582.61;404.97,585.52;366.36,584.94;349.46,583.77;328.03,579.69;328.03,585.67;333.86,593.97;328.91,599.22;324.83,610.00;329.20,624.28;340.71,637.25;345.67,650.07;350.33,668.14;358.78,685.48;370.00,701.80;377.43,719.73" z_order="0">
       <attribute name="hand_only">false</attribute>

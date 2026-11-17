@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <annotations>
   <version>1.1</version>
   <meta>
@@ -8,12 +8,12 @@
       <size>1</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
-      <bugtracker />
+      <bugtracker/>
       <created>2022-02-16 10:21:38.471556+00:00</created>
       <updated>2022-06-20 07:54:55.518829+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
-      <frame_filter />
+      <frame_filter/>
       <labels>
         <label>
           <name>content</name>
@@ -132,7 +132,10 @@
       </assignee>
     </task>
     <dumped>2023-10-23 09:20:10.106278+00:00</dumped>
-  <frame_source type="video" path="video/YT_dark_KZ_16.1.mp4"><video name="YT_dark_KZ_16.1.mp4" frame="450" /></frame_source></meta>
+    <frame_source type="video" path="video/YT_dark_KZ_16.1.mp4">
+      <video name="YT_dark_KZ_16.1.mp4" frame="450"/>
+    </frame_source>
+  </meta>
   <image id="0" name="YT_dark_KZ_16.1.mp4_frame_450.png" width="1920" height="1080">
     <polygon label="board" occluded="0" source="manual" points="371.22,330.20;1624.12,355.99;1633.00,1080.00;356.84,1080.00" z_order="0">
     </polygon>
@@ -193,11 +196,11 @@
     </points>
     <points label="visible_picture_edge" occluded="0" source="manual" points="1.05,1.05;97.50,0.32" z_order="0">
     </points>
-    <polygon label="content" occluded="0" source="manual" points="577.57,337.81;577.57,358.11;693.01,361.07;693.85,339.93;577.57,337.81" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" occluded="0" source="manual" points="577.57,337.81;577.57,358.11;693.01,361.07;693.85,339.93;577.57,337.81" z_order="0">
+      
     </polygon>
-    <polygon label="content" occluded="0" source="manual" points="1326.44,351.77;1326.44,372.20;1439.20,373.61;1438.49,352.82;1326.44,351.77" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" occluded="0" source="manual" points="1326.44,351.77;1326.44,372.20;1439.20,373.61;1438.49,352.82;1326.44,351.77" z_order="0">
+      
     </polygon>
   </image>
 </annotations>

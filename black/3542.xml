@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <annotations>
   <version>1.1</version>
   <meta>
@@ -8,12 +8,12 @@
       <size>1</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
-      <bugtracker />
+      <bugtracker/>
       <created>2022-03-06 19:23:42.918789+00:00</created>
       <updated>2022-03-25 09:21:20.796170+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
-      <frame_filter />
+      <frame_filter/>
       <labels>
         <label>
           <name>content</name>
@@ -132,12 +132,15 @@
       </assignee>
     </task>
     <dumped>2023-10-23 09:15:45.580379+00:00</dumped>
-  <frame_source type="video" path="video/blackboard_046.mp4"><video name="blackboard_046.mp4" frame="1050" /></frame_source></meta>
+    <frame_source type="video" path="video/blackboard_046.mp4">
+      <video name="blackboard_046.mp4" frame="1050"/>
+    </frame_source>
+  </meta>
   <image id="0" name="blackboard_046.mp4_frame_1050.png" width="1920" height="1080">
     <polygon label="visible_corner" occluded="0" source="manual" points="7.60,1008.20;0.10,48.60;1908.60,54.70;1909.80,988.90" z_order="0">
     </polygon>
-    <polygon label="content" occluded="0" source="manual" points="0.00,73.93;39.14,73.73;39.84,49.23;0.00,50.03" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" occluded="0" source="manual" points="0.00,73.93;39.14,73.73;39.84,49.23;0.00,50.03" z_order="0">
+      
     </polygon>
     <polygon label="content" occluded="0" source="manual" points="620.25,932.32;798.79,931.08;793.39,1042.64;761.46,1042.02;691.99,1042.64;617.76,1043.26" z_order="0">
       <attribute name="Difficult">false</attribute>

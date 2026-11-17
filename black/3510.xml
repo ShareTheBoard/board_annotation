@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <annotations>
   <version>1.1</version>
   <meta>
@@ -8,12 +8,12 @@
       <size>1</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
-      <bugtracker />
+      <bugtracker/>
       <created>2022-03-04 15:37:03.394692+00:00</created>
       <updated>2022-03-10 18:47:35.382021+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
-      <frame_filter />
+      <frame_filter/>
       <labels>
         <label>
           <name>content</name>
@@ -132,7 +132,10 @@
       </assignee>
     </task>
     <dumped>2023-10-23 09:16:42.538249+00:00</dumped>
-  <frame_source type="video" path="video/YT_dark_KZ_36.2.mp4"><video name="YT_dark_KZ_36.2.mp4" frame="450" /></frame_source></meta>
+    <frame_source type="video" path="video/YT_dark_KZ_36.2.mp4">
+      <video name="YT_dark_KZ_36.2.mp4" frame="450"/>
+    </frame_source>
+  </meta>
   <image id="0" name="YT_dark_KZ_36.2.mp4_frame_450.png" width="1920" height="1080">
     <polygon label="visible_corner" occluded="0" source="manual" points="466.59,1.03;490.88,886.62;1919.77,892.03;1919.49,0.75" z_order="0">
     </polygon>
@@ -311,8 +314,8 @@
     </polyline>
     <polyline label="content_white" occluded="0" source="manual" points="653.20,360.40;651.90,357.90;650.20,356.20;648.90,355.70;646.90,355.20;645.40,355.70;643.00,358.30;641.20,361.10;641.00,365.50;642.80,368.60;645.50,369.00;649.00,367.30;652.50,363.80;655.90,360.50;660.90,356.90;664.40,354.80;666.80,354.40;669.70,354.90;671.90,356.60;672.50,359.80;671.60,363.40;669.60,365.20;666.00,366.80;662.00,366.40;657.10,364.20;653.20,360.50" z_order="0">
     </polyline>
-    <polygon label="content" occluded="0" source="manual" points="472.61,2.68;473.61,41.26;519.58,41.86;517.78,1.88;472.61,2.68" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" occluded="0" source="manual" points="472.61,2.68;473.61,41.26;519.58,41.86;517.78,1.88;472.61,2.68" z_order="0">
+      
     </polygon>
   </image>
 </annotations>

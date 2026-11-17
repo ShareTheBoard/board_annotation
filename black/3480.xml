@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <annotations>
   <version>1.1</version>
   <meta>
@@ -8,12 +8,12 @@
       <size>1</size>
       <mode>annotation</mode>
       <overlap>0</overlap>
-      <bugtracker />
+      <bugtracker/>
       <created>2022-03-04 15:22:19.105674+00:00</created>
       <updated>2022-03-28 21:15:40.057531+00:00</updated>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
-      <frame_filter />
+      <frame_filter/>
       <labels>
         <label>
           <name>content</name>
@@ -132,14 +132,17 @@
       </assignee>
     </task>
     <dumped>2023-10-23 09:17:29.320298+00:00</dumped>
-  <frame_source type="video" path="video/YT_dark_KZ_23.3.mp4"><video name="YT_dark_KZ_23.3.mp4" frame="450" /></frame_source></meta>
+    <frame_source type="video" path="video/YT_dark_KZ_23.3.mp4">
+      <video name="YT_dark_KZ_23.3.mp4" frame="450"/>
+    </frame_source>
+  </meta>
   <image id="0" name="YT_dark_KZ_23.3.mp4_frame_450.png" width="1920" height="1080">
     <polygon label="visible_corner" occluded="0" source="manual" points="32.70,456.30;30.50,1002.20;1870.50,1001.10;1868.20,460.70" z_order="0">
     </polygon>
     <points label="visible_corner" occluded="0" source="manual" points="32.80,455.80;30.00,1003.20;1870.50,1001.90;1868.80,460.20" z_order="0">
     </points>
-    <polygon label="content" occluded="0" source="manual" points="33.88,929.15;34.37,1045.03;418.84,1047.52;409.89,971.42;154.24,928.65;33.88,929.15" z_order="0">
-      <attribute name="Difficult">true</attribute>
+    <polygon label="difficult" occluded="0" source="manual" points="33.88,929.15;34.37,1045.03;418.84,1047.52;409.89,971.42;154.24,928.65;33.88,929.15" z_order="0">
+      
     </polygon>
     <polyline label="content_red" occluded="0" source="manual" points="507.35,721.93;512.90,713.83;523.08,728.06;525.98,733.96" z_order="0">
     </polyline>
